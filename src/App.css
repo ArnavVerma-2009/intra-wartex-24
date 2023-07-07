@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+@font-face {
+    font-family: "integral";
+    src: url("./font/IntegralCF-ExtraBold.woff");
+}
+@font-face {
+    font-family: "fibon";
+    src: url(./font/Fibon_Sans_Regular.otf);
+}
+.hero-heading{
+    font-family: "integral";
+}
+
+.navLinks{
+    font-family: "poppins", sans-serif  ;
+    font-weight:100;
+}
+.hero{
+    background-image:  linear-gradient(360deg, #010006 0.5%, rgb(3, 0, 19) 99% );
+    /* background-color: ; */
+    background-size: cover;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: #000000;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 5px;
+}
