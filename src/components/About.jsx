@@ -4,10 +4,13 @@ import { ScrollParallax } from "react-just-parallax";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 import MadhavImage from "./../assets/TeamMembers/madhav.webp";
+import Transition from "../transition";
+
 const About = () => {
   const [counterOn, setCounterOn] = useState(false);
   return (
     <>
+    <Transition>
       <div className="h-[auto] text-white  ">
         <section className=" sm:mt-0 mt-20 AboutDiv p-12 ">
           <div className="AboutContainer">
@@ -61,7 +64,7 @@ const About = () => {
                 <h6 className="text-5xl font-bold text-deep-purple-accent-400">
                   {counterOn && (
                     <CountUp
-                    className="akira"
+                      className="akira"
                       start={0}
                       end={850}
                       duration={3}
@@ -76,7 +79,7 @@ const About = () => {
                 <h6 className="text-5xl font-bold text-deep-purple-accent-400">
                   {counterOn && (
                     <CountUp
-                    className="akira"
+                      className="akira"
                       start={0}
                       end={55}
                       duration={3}
@@ -92,7 +95,8 @@ const About = () => {
             </h1>
           </div>
         </ScrollTrigger>
-      </div>{" "}
+      </div>
+      </Transition>
     </>
   );
 };

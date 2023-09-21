@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@500&display=swap");
 @font-face {
   font-family: "coolvetica";
   src: url(./../src/font/coolvetica\ rg.otf);
@@ -11,7 +11,7 @@
 }
 @font-face {
   font-family: "Thunder";
-  src: url('./font/Thunder-ExtraBoldLC.ttf');
+  src: url("./font/Thunder-ExtraBoldLC.ttf");
 }
 @font-face {
   font-family: "stretch";
@@ -35,13 +35,13 @@
 }
 body {
   background-color: black;
-  
 }
-html{
+html {
   user-select: none;
+  overflow-x: hidden;
 }
 
-::selection{ 
+::selection {
   background-color: #00000000;
   color: white;
   overflow: hidden;
@@ -54,34 +54,35 @@ img {
   font-family: "unicorn";
   letter-spacing: 2px;
 }
-.sf{
+.sf {
   font-family: "sf";
 }
 .heading {
   font-family: "akira";
 }
 .navLinks {
-  font-family: 'inter', sans-serif;  
+  font-family: "inter", sans-serif;
   /* letter-spacing: 2px; */
   font-weight: 100;
 }
 .inter {
   font-family: "inter", sans-serif;
 }
-.integral{
+.integral {
   font-family: integral;
 }
-.akira{
-  font-family: akira; letter-spacing: 2px;
+.akira {
+  font-family: akira;
+  letter-spacing: 2px;
 }
-.fibon{
+.fibon {
   font-family: fibon;
 }
-.stretch{
+.stretch {
   font-family: "stretch";
   transform: scaleY(1.1);
 }
-.Footer{
+.Footer {
   font-family: "inter";
 }
 
@@ -109,13 +110,13 @@ img {
 
 .ContactDiv {
   background-image: url(assets/bg-contact.webp);
-  background-size:cover;
+  background-size: cover;
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
 }
 .AboutDiv {
   /* background-image: url(assets/images/bg-about.webp); */
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .teamCard:hover {
@@ -130,48 +131,47 @@ img {
   /* backdrop-filter: saturate(120%) contrast(200%); */
 }
 
-.AboutContainer{
+.AboutContainer {
   backdrop-filter: brightness(50%) contrast(120%);
 }
-.contentEventCard{
+.contentEventCard {
   transition: all 500ms;
   backdrop-filter: blur(0px);
   color: transparent;
-  
 }
-.EventMainCard:hover .contentEventCard{
+.EventMainCard:hover .contentEventCard {
   backdrop-filter: blur(10px);
   color: white;
 }
 
-.anotherDiv{
+.anotherDiv {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-table, th, td {
-  border:3px solid  #ffffff ; 
-  
+table,
+th,
+td {
+  border: 3px solid #ffffff;
 }
-th{
+th {
   padding: 20px;
   font-size: 20px;
   font-family: akira;
 }
-td{ 
-  padding:10px;
+td {
+  padding: 10px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size:  16px;
+  font-size: 16px;
   font-family: akira;
 }
-.customScrollbar::-webkit-scrollbar-thumb{
+.customScrollbar::-webkit-scrollbar-thumb {
   color: red;
 }
 
-
-.slide-in{
+.slide-in {
   position: fixed;
   top: 0;
   left: 0;
@@ -180,15 +180,18 @@ td{
   background: #0f0f0f;
   transform-origin: bottom;
 }
-.slide-out{
+
+.slide-out {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #0f0f0f;
+  background-color: #007bc4;
   transform-origin: top;
+  overflow: hidden;
+  z-index: 1000000000;
 }
-#myCursor{
+#myCursor {
   display: hidden;
 }

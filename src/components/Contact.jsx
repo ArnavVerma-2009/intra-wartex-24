@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import bgImage from "./../assets/bg-contact.webp";
+import Transition from "../transition";
 
 const cardData = [
   {
@@ -57,6 +58,9 @@ const Contact = () => {
  
   return (
     <>
+    <Transition>
+
+    
       <div className="bg-black ">
         <section className="sm:p-40 ContactDiv pt-12 pr-4 pl-4 pb-12 height-[100vh]">
           <div className="py-8 lg:py-16  px-4 mx-auto max-w-screen bg-[#ffffff0e] backdrop-blur-lg rounded-xl">
@@ -206,7 +210,7 @@ const Contact = () => {
        ))}
       </ol>
     </div>
-      </div>
+      </div></Transition>
     </>
   );
 };

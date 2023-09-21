@@ -15,6 +15,7 @@ export default function Schedule() {
         THE TIMELINE
       </h1>
       <Link
+        to="/Schedule"
         data-aos="fade-up"
         data-aos-duration="750"
         className="flex justify-center w-max transition duration-500 dark:text-black rounded-3xl mb-14 px-3 py-1 text-base font-semibold leading-7 text-white text-center uppercase border-[2px] hover:bg-gray-50 hover:text-black "

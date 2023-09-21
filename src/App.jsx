@@ -16,7 +16,7 @@ import About from "./components/About";
 
 import { Routes, Route, useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { Lines } from 'react-preloaders';
+import { Lines } from "react-preloaders";
 import { useEffect, useState } from "react";
 
 // Importing All the events page
@@ -41,6 +41,7 @@ import TeamPage from "./components/TeamPage";
 import EventPage from "./components/eventPage";
 import TypingMonkey from "./components/events/TypingMonkey";
 import SchedulePage from "./components/SchedulePage";
+import transition from "./transition";
 
 // Scroll to top function
 
@@ -53,45 +54,43 @@ function scrollToTop() {
 }
 
 function App() {
-
-
   return (
     <>
-    {/* <Lines color={"#fff"} background="linear-gradient(180deg, #007bc2 0%, #009bc2 100%)" time={1800}/>; */}
-    <div className="hidden lg:block">
-      <AnimatedCursor
-        innerSize={0}
-        outerSize={35}
-        innerAlpha={2}
-        innerScale={1}
-        outerScale={2}
-        outerAlpha={0}
-        showSystemCursor={false}
-        outerStyle={{
-          mixBlendMode: "exclusion",
-          backgroundColor: "#fff",
-          zIndex: 10000000000,
-        }}
-        clickables={[
-          "a",
-          'input[type="text"]',
-          'input[type="email"]',
-          'input[type="number"]',
-          'input[type="submit"]',
-          'input[type="image"]',
-          "label[for]",
-          "select",
-          "textarea",
-          "button",
-          ".link",
-        ]}
-      /></div>
-
-      {/**/}
-      <Navbar />
-      {scrollToTop()}
-     
-        <Routes>
+      <AnimatePresence  mode="wait">
+        {/* <Lines color={"#fff"} background="linear-gradient(180deg, #007bc2 0%, #009bc2 100%)" time={1800}/>; */}
+        <div className="hidden lg:block" key={2}>
+          <AnimatedCursor
+            innerSize={0}
+            outerSize={35}
+            innerAlpha={2}
+            innerScale={1}
+            outerScale={2}
+            outerAlpha={0}
+            showSystemCursor={false}
+            outerStyle={{
+              mixBlendMode: "exclusion",
+              backgroundColor: "#fff",
+              zIndex: 10000000000,
+            }}
+            clickables={[
+              "a",
+              'input[type="text"]',
+              'input[type="email"]',
+              'input[type="number"]',
+              'input[type="submit"]',
+              'input[type="image"]',
+              "label[for]",
+              "select",
+              "textarea",
+              "button",
+              ".link",
+            ]}
+          />
+        </div>
+        {/**/}
+        <Navbar key={3} />
+        {scrollToTop()}
+        <Routes key={1}>
           {/* ROUTING THE HOME PAGE */}
 
           <Route
@@ -299,8 +298,8 @@ function App() {
             }
           />
         </Routes>
-    
-      <Footer />
+        <Footer />{" "}
+      </AnimatePresence>
     </>
   );
 }

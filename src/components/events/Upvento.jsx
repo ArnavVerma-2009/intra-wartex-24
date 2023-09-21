@@ -1,8 +1,9 @@
 import React from "react";
-
+import Transition from "../../transition";
 
 const Upvento = () => {
   return (
+    <Transition>
     <div className="p-4 sm:p-28 xl:p-42 bg-black">
       <section className="bg-black dark:bg-black">
         <div className="container px-6 py-16 mx-auto text-center">
@@ -115,7 +116,7 @@ const Upvento = () => {
         </ol>
       </div>
 
-    </div>
+    </div></Transition>
   );
 };
 

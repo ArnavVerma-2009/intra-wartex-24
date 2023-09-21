@@ -1,7 +1,9 @@
 import React from "react";
+import Transition from "../transition";
 
 export default function SchedulePage() {
   return (
+    <Transition>
     <div className="overflow-x-hidden p-4 sm:p-28 mt-20 xl:p-42 bg-black dark:bg-[#ebe2e2] Sfsf ">
       <h1
         data-aos="fade-up"
@@ -62,6 +64,6 @@ export default function SchedulePage() {
           </tbody>
         </table>
       </div>
-    </div>
+    </div></Transition>
   );
 }

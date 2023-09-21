@@ -145,9 +145,9 @@ export const ApexTeam = () => {
 
           <div className="container relative px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
-              {TeamMetaData.map((data, key) => (
+              {TeamMetaData.map((data, id) => (
                 
-                  <div key={key} data-aos="fade-up" data-aos-duration={data.delay} className=" group relative block bg-black overflow-hidden drop-shadow-[0_0px_0px_#007bc4]   my-8 sm:my-0 aspect-[8/10] rounded-xl   border-[4px] border-[#007bc4] ">
+                  <div key={id} data-aos="fade-up" data-aos-duration={data.delay} className=" group relative block bg-black overflow-hidden drop-shadow-[0_0px_0px_#007bc4]   my-8 sm:my-0 aspect-[8/10] rounded-xl   border-[4px] border-[#007bc4] ">
                     <img
                       style={{
                         // backgroundImage: `url(${data.Image})`,

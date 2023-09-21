@@ -13,6 +13,7 @@ import JaishreeSharma from "./../assets/TeamMembers/JaishreeSharma.webp";
 import SwastikVerma from "./../assets/TeamMembers/SwastikVerma.webp";
 import SiddhiMalhotra from "./../assets/TeamMembers/SiddhiMalhotra.webp";
 import placeHolder from "./../assets/TeamMembers/placeholder.avif";
+import Transition from "../transition";
 AOS.init();
 const TeamMetaData = [
   {
@@ -312,129 +313,127 @@ const EventHeadList = [
 const TeamPage = () => {
   return (
     <>
-      {/* <Lines color="#fff" duration="1250" /> */}
-      <div className="p-4 mt-28  sm:p-28 xl:p-42 bg-black dark:bg-[#ebe2e2]">
-        <section className="bg-black dark:bg-[#ebe2e2]">
-          <div className="h-[32rem] bg-black dark:bg-[#ebe2e2]">
-            <div className="container px-6 py-10 mx-auto">
-              <h1
-                className="mb-2 text-4xl text-[#007bc4] drop-shadow-[0_0px_35px_#007bc4]  text-center font-semibold uppercase tracking-px heading"
-                data-aos="fade-up"
-              >
-                THE APEX MEMBERS
-              </h1>
+      <Transition>
+        {/* <Lines color="#fff" duration="1250" /> */}
+        <div className="p-4 mt-28  sm:p-28 xl:p-42 bg-black dark:bg-[#ebe2e2]">
+          <section className="bg-black dark:bg-[#ebe2e2]">
+            <div className="h-[32rem] bg-black dark:bg-[#ebe2e2]">
+              <div className="container px-6 py-10 mx-auto">
+                <h1
+                  className="mb-2 text-4xl text-[#007bc4] drop-shadow-[0_0px_35px_#007bc4]  text-center font-semibold uppercase tracking-px heading"
+                  data-aos="fade-up"
+                >
+                  THE APEX MEMBERS
+                </h1>
 
-              <p
-                className="mb-14 text-sm text-white dark:text-black text-center font-semibold uppercase tracking-px"
-                data-aos="fade-up"
-              >
-                THE ONES WHO GIVE THEIR ALL
-              </p>
+                <p
+                  className="mb-14 text-sm text-white dark:text-black text-center font-semibold uppercase tracking-px"
+                  data-aos="fade-up"
+                >
+                  THE ONES WHO GIVE THEIR ALL
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="container relative px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
-              {TeamMetaData.map((data) => (
-                <div key={data.id}>
-                  <div
-                    data-aos="fade-up"
-                    data-aos-duration={data.delay}
-                    className=" group relative block bg-black overflow-hidden drop-shadow-[0_0px_0px_#007bc4]   my-8 sm:my-0 aspect-[8/10] rounded-xl   border-[4px] border-[#007bc4] "
-                  >
-                    <img
-                      style={{
-                        // backgroundImage: `url(${data.Image})`,
-                        backgroundSize: "cover",
-                        aspectRatio: "8/10",
-                      }}
-                      alt={data.id}
-                      src={data.Image}
-                      loading="lazy"
-                      fill="true"
-                      sizes="(max-width : 768px) 100vw, 700px"
-                      className="hover:brightness-[40%] hover:hue-rotate-90 absolute inset-0 h-full w-auto object-cover opacity-75 transition duration-2000"
-                    />
+            <div className="container relative px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
+                {TeamMetaData.map((data) => (
+                  <div key={data.id}>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-duration={data.delay}
+                      className=" group relative block bg-black overflow-hidden drop-shadow-[0_0px_0px_#007bc4]   my-8 sm:my-0 aspect-[8/10] rounded-xl   border-[4px] border-[#007bc4] "
+                    >
+                      <img
+                        style={{
+                          // backgroundImage: `url(${data.Image})`,
+                          backgroundSize: "cover",
+                          aspectRatio: "8/10",
+                        }}
+                        alt={data.id}
+                        src={data.Image}
+                        loading="lazy"
+                        fill="true"
+                        sizes="(max-width : 768px) 100vw, 700px"
+                        className="hover:brightness-[40%] hover:hue-rotate-90 absolute inset-0 h-full w-auto object-cover opacity-75 transition duration-2000"
+                      />
 
-                    <div className="relative flex flex-col items-start justify-end h-full  p-4 sm:p-5 lg:p-7 ">
-                      <p className="sf relative text-xl font-bold text-white sm:text-2xl">
-                        {data.Name}
-                      </p>
-                      <p className="sf relative text-sm  uppercase tracking-widest text-[#fff] font-bold poppins">
-                        {data.Designation}
-                      </p>
+                      <div className="relative flex flex-col items-start justify-end h-full  p-4 sm:p-5 lg:p-7 ">
+                        <p className="sf relative text-xl font-bold text-white sm:text-2xl">
+                          {data.Name}
+                        </p>
+                        <p className="sf relative text-sm  uppercase tracking-widest text-[#fff] font-bold poppins">
+                          {data.Designation}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
-        </section>
-      </div>
+          </section>
+        </div>
 
-
-               
-        
         <div className="p-4 sm:p-28 xl:p-42 bg-black dark:bg-[#ebe2e2]">
-        <section className="bg-black dark:bg-[#ebe2e2]">
-          <div className="h-[32rem] bg-black dark:bg-[#ebe2e2]">
-            <div className="container px-6 py-10 mx-auto">
-              <h1
-                className="mb-2 text-4xl text-[#007bc4] drop-shadow-[0_0px_35px_#007bc4]  text-center font-semibold uppercase tracking-px heading"
-                data-aos="fade-up"
-              >
-                THE EVENT HEADS
-              </h1>
+          <section className="bg-black dark:bg-[#ebe2e2]">
+            <div className="h-[32rem] bg-black dark:bg-[#ebe2e2]">
+              <div className="container px-6 py-10 mx-auto">
+                <h1
+                  className="mb-2 text-4xl text-[#007bc4] drop-shadow-[0_0px_35px_#007bc4]  text-center font-semibold uppercase tracking-px heading"
+                  data-aos="fade-up"
+                >
+                  THE EVENT HEADS
+                </h1>
 
-              <p
-                className="mb-14 text-sm text-white dark:text-black text-center font-semibold uppercase tracking-px"
-                data-aos="fade-up"
-              >
-                THE CHAMPIONS OF THE CHAMPIONS
-              </p>
+                <p
+                  className="mb-14 text-sm text-white dark:text-black text-center font-semibold uppercase tracking-px"
+                  data-aos="fade-up"
+                >
+                  THE CHAMPIONS OF THE CHAMPIONS
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="container relative px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
-              {EventHeadList.map((data) => (
-                <div key={data.id}>
-                  <div data-aos="fade-up" data-aos-duration={data.delay} className=" group relative block bg-black overflow-hidden drop-shadow-[0_0px_0px_#007bc4]   my-8 sm:my-0 aspect-[8/10] rounded-xl   border-[4px] border-[#007bc4] ">
-              
-                    <img
-                      style={{
-                       
-                        backgroundSize: "cover",
-                        aspectRatio: "8/10",
-                        
-                      }}
-                      alt={data.id}
-                      src={data.Image}
-                      loading="lazy"
-                      fill="true"
-                      sizes="(max-width : 768px) 100vw, 700px"
-                      className="hover:brightness-[40%] absolute inset-0 h-full w-auto object-cover opacity-75 transition duration-2000"
-                    />
+            <div className="container relative px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
+                {EventHeadList.map((data) => (
+                  <div key={data.id}>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-duration={data.delay}
+                      className=" group relative block bg-black overflow-hidden drop-shadow-[0_0px_0px_#007bc4]   my-8 sm:my-0 aspect-[8/10] rounded-xl   border-[4px] border-[#007bc4] "
+                    >
+                      <img
+                        style={{
+                          backgroundSize: "cover",
+                          aspectRatio: "8/10",
+                        }}
+                        alt={data.id}
+                        src={data.Image}
+                        loading="lazy"
+                        fill="true"
+                        sizes="(max-width : 768px) 100vw, 700px"
+                        className="hover:brightness-[40%] absolute inset-0 h-full w-auto object-cover opacity-75 transition duration-2000"
+                      />
 
-                    <div className="relative flex flex-col items-start justify-end h-full  p-4 sm:p-5 lg:p-7 ">
-                   <p className="relative text-xl uppercase font-bold text-white sm:text-2xl">
-                        {data.Name}
-                      </p>
-                       <p className="relative text-sm  uppercase  text-[#fff] font-bold poppins">
-                        {data.Designation}
-                      </p>
-                    
-          
+                      <div className="relative flex flex-col items-start justify-end h-full  p-4 sm:p-5 lg:p-7 ">
+                        <p className="relative text-xl uppercase font-bold text-white sm:text-2xl">
+                          {data.Name}
+                        </p>
+                        <p className="relative text-sm  uppercase  text-[#fff] font-bold poppins">
+                          {data.Designation}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
-        </section>
-      </div>
+          </section>
+        </div>
+      </Transition>
     </>
   );
-}
+};
 
 export default TeamPage;
