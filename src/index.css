@@ -4,13 +4,13 @@
 
 body{
     
-    background-color: #010006;
+    background-color: #000000;
     background-size: cover;
     height: 100vh;
-    font-family: sans-serif;
+    font-family: inter;
 }
 .address, .date{ 
-    font-family: "integral";
+    font-family: "sf";
+    font-weight: 900;
     letter-spacing: 1px;
-    transform: scaleY(1.15);
 }
