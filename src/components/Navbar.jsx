@@ -3,6 +3,10 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, useLocation } from "react-router-dom";
 import { Lines } from "react-preloaders";
+import { Fragment } from "react";
+import { Menu, Transition } from "@headlessui/react";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
+
 const navigation = [
   { name: "TEAM", href: "/Team" },
   { name: "EVENTS", href: "/Events" },
@@ -12,9 +16,12 @@ const navigation = [
   // { name: "MAP", href: "/map" },
 ];
 
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
+
 const Navbar = (props) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
 
   return (
     <header className="inset-x-0 top-0 z-[1000] backdrop-blur-[10px] bg-[#04102b0f] fixed">
@@ -28,7 +35,7 @@ const Navbar = (props) => {
             <img
               className="h-12 w-auto"
               src="/wartex-logo.webp"
-              // 
+              //
               alt="ImageHai"
             />
           </Link>
@@ -55,9 +62,64 @@ const Navbar = (props) => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
-          <div className="border-2 border-white navLinks tracking-[4px] line leading-8   transition ease-in-out duration-[1s]  rounded-full font-semibold px-5 py-1.5  text-white cursor-pointer hover:bg-[#ffffff] hover:border-white hover:text-[#0048c4]">
-            <button>REGISTER</button>
-          </div>
+          <Menu as="div" className="relative inline-block text-center">
+            <div>
+              <Menu.Button className="sf inline-flex w-full justify-center items-center  gap-x-1.5 rounded-3xl text-white px-3 py-2 text-lg font-semibold shadow-sm border-[2px] border-white hover:bg-gray-50 transition duration-500 hover:text-[#007bc4]">
+                REGISTER
+                <ChevronDownIcon
+                  className=" h-5 w-5 text-gray-400"
+                  aria-hidden="true"
+                />
+              </Menu.Button>
+            </div>
+
+            <Transition
+              as={Fragment}
+              enter="transition ease-out duration-100"
+              enterFrom="transform opacity-0 scale-95"
+              enterTo="transform opacity-100 scale-100"
+              leave="transition ease-in duration-75"
+              leaveFrom="transform opacity-100 scale-100"
+              leaveTo="transform opacity-0 scale-95"
+            >
+              <Menu.Items className="rounded-2xl absolute right-0 z-10 mt-2 w-[300px] h-[150px] origin-top-right  backdrop-blur-[10px] bg-[#04102b0f] flex justify-center bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                <div className=" h-full bg-white w-full rounded-3xl overflow-hidden">
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href="#"
+                        className={classNames(
+                          active
+                            ? " text-[#007bc4]"
+                            : "text-black  bg-white",
+                          "flex justify-center sf font-black transition-all duration-500 items-center text-lg px-4 py-2 h-[50%] "
+                        )}
+                      >
+                        SCHOOL REGISTRATION
+                      </a>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href="#"
+                        className={classNames(
+                          active
+                            ? " text-[#007bc4]"
+                            : "text-black  bg-white",
+                          "flex justify-center sf font-black transition-all duration-500 items-center text-lg px-4 py-2 h-[50%] "
+                        )}
+                      >
+                        INDIVIDUAL REGISTRATION
+                      </a>
+                    )}
+                  </Menu.Item>
+            
+                 
+                </div>
+              </Menu.Items>
+            </Transition>
+          </Menu>
         </div>
       </nav>
       <Dialog
@@ -96,14 +158,22 @@ const Navbar = (props) => {
                   </Link>
                 ))}
               </div>
-              <div className="py-6">
-                <Link
-                  to="#"
-                  className="-mx-3 dark:text-black tracking-widest block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white text-center uppercase hover:bg-gray-50 hover:text-black navLinks"
-                >
-                  register
-                </Link>
-              </div>
+             <Link
+                    onClick={() => setMobileMenuOpen(false)}
+                    
+                    to="/"
+                    className="-mx-3 dark:text-black block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white uppercase  text-center hover:bg-gray-50  hover:text-black navLinks "
+                  >
+                    SCHOOL REGISTRATION
+                  </Link>
+             <Link
+                    onClick={() => setMobileMenuOpen(false)}
+                    
+                    to="/"
+                    className="-mx-3 dark:text-black block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white uppercase  text-center hover:bg-gray-50  hover:text-black navLinks "
+                  >
+                    INDIVIDUAL REGISTRATION
+                  </Link>
               <div className="flex navLinks justify-center py-4 tracking-widest line leading-8 transition ease-in-out duration-[1s]  border-[#fff] rounded-full font-semibold items-center px-8 text-white cursor-pointer  hover:border-white "></div>
             </div>
           </div>

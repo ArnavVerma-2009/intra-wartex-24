@@ -29,7 +29,7 @@ const Transition = ({ children }) => {
         initial="initial"
         animate="animate"
         exit="exit"
-        transition={{ duration: 2, ease: [0.9, 0.64, 0.36, 1], delay: 1.5,}}
+        transition={{ duration: 2, ease: [0.9, 0.64, 0.36, 1], delay: 1.2,}}
       ></motion.div>
     </>
   );
