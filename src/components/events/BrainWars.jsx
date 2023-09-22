@@ -14,7 +14,7 @@ const BrainWars = () => {
               >
                 BRAIN WARS
               </h1>
-              <p className="mt-6 text-white">TECH QUIZ</p>
+              <p className="mt-6 text-white">GENERAL QUIZ</p>
             </div>
 
             <div className="flex justify-center mt-10">

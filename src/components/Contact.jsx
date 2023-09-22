@@ -7,26 +7,26 @@ import Transition from "../transition";
 
 const cardData = [
   {
-    email: "example@gmail.com",
-    phoneNum: "+91 XXXXXXXXXX",
+    email: " ",
+    phoneNum: "+91 9953657884",
     Name: "Neeru Mittal",
     Post: "Teacher In Charge",
   },
   {
-    email: "example@gmail.com",
-    phoneNum: "+91 XXXXXXXXXX",
+    email: " ",
+    phoneNum: "+91 9810868089",
     Name: "Vineeta Garg",
     Post: "Teacher In Charge",
   },
   {
-    email: "example@gmail.com",
-    phoneNum: "+91 XXXXXXXXXX",
+    email: "| thedelhibro@gmail.com",
+    phoneNum: "+91 9891194178",
     Name: "Yash Mehra",
     Post: "President",
   },
   {
-    email: "example@gmail.com",
-    phoneNum: "+91 XXXXXXXXXX",
+    email: "| riddhigoyal86@gmail.com",
+    phoneNum: "+91 9911066644",
     Name: "Riddhi Goyal",
     Post: "Vice President",
   },
@@ -104,12 +104,7 @@ const Contact = () => {
                       <a className="text-indigo-500 leading-relaxed">
                         wartexsrdav@gmail.com
                       </a>
-                      <h2 className="title-font font-semibold text-black tracking-widest text-xs mt-4">
-                        PHONE
-                      </h2>
-                      <p className="leading-relaxed text-black ">
-                        123-456-7890
-                      </p>
+                  
                     </div>
                   </div>
                 
@@ -130,7 +125,7 @@ const Contact = () => {
                         autoComplete="true"
                         type="text"
                         id="name"
-                        placeholder="Arnav Verma"
+                        placeholder="Deepak Kalal"
                         name="user_name"
                         className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       />
@@ -162,7 +157,7 @@ const Contact = () => {
                         id="message"
                         className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-black py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                         defaultValue={""}
-                        placeholder="Leave a comment..."
+                        placeholder="Ask Your Query Here"
                         name="message"
                       />
                     </div>
@@ -204,7 +199,7 @@ const Contact = () => {
          <li className="mb-10 ml-4" key={key}>
           <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_#007bc4] bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
           <p data-aos="fade-up" data-aos-duration="750" className="sf mb-4 text-base font-normal text-gray-300 dark:text-black">
-       {data.phoneNum} , {data.email} | {data.Name} - {data.Post}
+       {data.phoneNum} {data.email} | {data.Name} - {data.Post}
           </p>
         </li>
        ))}

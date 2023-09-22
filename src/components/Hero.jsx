@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Transition from "../transition";
 import bgImage from "./../assets/pxfuel.webp";
 import { MouseParallax, ScrollParallax } from "react-just-parallax";
@@ -113,12 +114,12 @@ const Hero = () => {
             </div> */}
 
                   <div className="mt-8 sm:mt-4 flex items-center justify-center gap-x-6">
-                    <a
-                      href="#"
+                    <Link
+                      to="https://discord.gg/QkDqt6fp"
                       className="border-2 tracking-widest line text-sm  transition ease-in-out duration-[1s]  border-[#fff] rounded-full font-semibold px-4 py-2.5  text-white cursor-pointer hover:bg-[#5864F2] hover:border-white hover:text-[#fff] "
                     >
                       DISCORD
-                    </a>
+                    </Link>
                     <a
                       href="#"
                       className="border-2 tracking-widest line text-sm  transition ease-in-out duration-[1s]  border-[#fff] rounded-full font-semibold px-4 py-2.5  text-white cursor-pointer hover:bg-[#ffffff] hover:border-white hover:text-[#280d47]"

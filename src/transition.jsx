@@ -15,22 +15,16 @@ const Transition = ({ children }) => {
   return (
     <>
       {children}
-      {/* <motion.div
-        className="slide-in"
-        variants={animations}
-        initial="initial"
-        animate="animate"
-        exit="exit"
-        transition={{ duration: 2, ease: [0.22, 1, 0.36, 1] }}
-      ></motion.div> */}
       <motion.div
-        className="slide-out"
+        className="slide-out flex justify-center items-center"
         variants={animationsOut}
         initial="initial"
         animate="animate"
         exit="exit"
-        transition={{ duration: 2, ease: [0.9, 0.64, 0.36, 1], delay: 1.2,}}
-      ></motion.div>
+        transition={{ duration: 1.5, ease: [0.9, 0.64, 0.36, 1], delay: 1.2,}}
+      >
+        {/* <h1 className="lg:text-6xl md:text-4xl sm:text-3xl text-2xl  akira p-16 text-center">WE ARE THE TECHNOCRATS</h1> */}
+      </motion.div>
     </>
   );
 };

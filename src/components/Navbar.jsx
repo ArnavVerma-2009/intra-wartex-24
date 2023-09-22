@@ -23,6 +23,7 @@ function classNames(...classes) {
 const Navbar = (props) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  
   return (
     <header className="inset-x-0 top-0 z-[1000] backdrop-blur-[10px] bg-[#04102b0f] fixed">
       <nav

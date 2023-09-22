@@ -60,6 +60,7 @@ function App() {
         {/* <Lines color={"#fff"} background="linear-gradient(180deg, #007bc2 0%, #009bc2 100%)" time={1800}/>; */}
         <div className="hidden lg:block" key={2}>
           <AnimatedCursor
+          trailingSpeed={1}
             innerSize={0}
             outerSize={35}
             innerAlpha={2}
