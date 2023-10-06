@@ -51,10 +51,10 @@ const Ragnarok = () => {
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
               <h5 className="akira group-hover:text-white transition duration-500 mb-2 text-2xl font-bold text-center items-center tracking-tight text-gray-900 dark:text-white">
-                Theme
+                Team
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                Gaming
+                4 members
               </p>
             </div>
           </div>
@@ -66,54 +66,65 @@ const Ragnarok = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Ragnarok is a 2-day event. The dates will be shared on the
-                Discord Server.
-                <br />
-                Day 1: Round 1 (Online)
-                <br />
-                Day 2: Round 2 & 3 (Offline)
+                Ragnarok is a 2-day event.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                The game for round 1 is Valorant. The details for Round 1 i.e.
-                the game mode and the timings will be shared on the Ragnarok
-                Server itself.
+                Prelims will take place online on Discord. Date, Timings & game
+                mode will be announced on the Discord server
               </p>
             </li>
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                Rounds 2 & 3 will be held offline in the school premises on 26th
-                October. Details regarding the same will be shared with the
-                qualifiers of Round 1 through Discord only. Only team-based
-                participation is permitted. No solo players are allowed in the
-                competition.
+                The game for Round 1 is Rocket League.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Details regarding Round 2 will be declared on the discord server
-                after Round 1 is finished. The usage of cheats, hacks, or any
-                other third-party applications that give one an unfair advantage
-                over their opponents will result in immediate disqualification.
+                The winners of Round 1 will be announced on the Discord Server,
+                who will appear for Round 2 Rounds 2 and 3 will be held offline
+                on the school premises on 26 October.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Participants must use an acceptable username in the Tournament.
-                If they fail to do it, the administration reserves the right to
+                Details regarding the same will be shared with the qualifiers of
+                Round 1 through Discord only.
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 ">
+                Only team-based participation is permitted. No solo players are
+                allowed in the competition.
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 ">
+                Details regarding Round 2 will be announced on the Discord
+                server after Round 1
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 ">
+                The use of cheats, hacks, or any other thirdparty applications
+                that give an unfair advantage to the participants over their
+                opponents will result in immediate disqualification.
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 ">
+                Participants must use an acceptable username in the tournament.
+                If they fail to do so, the administration reserves the right to
                 disqualify them.
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 ">
-                NOTE: All the participants are requested to join the WARTEX
-                Event discord server for updates: https://discord.gg/BKE3CH5sMe
               </p>
             </li>
           </ol>

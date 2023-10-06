@@ -74,6 +74,7 @@ function App() {
               zIndex: 10000000000,
             }}
             clickables={[
+              "Link",
               "a",
               'input[type="text"]',
               'input[type="email"]',

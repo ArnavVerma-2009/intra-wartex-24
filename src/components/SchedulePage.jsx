@@ -33,7 +33,7 @@ export default function SchedulePage() {
             </tr>
             <tr>
               <td>Library </td>
-              <td colSpan={4}>Random Ass event</td>
+              <td colSpan={4}>Illuminati</td>
 
               <td colSpan={4}> </td>
             </tr>

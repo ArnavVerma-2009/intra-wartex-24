@@ -12,7 +12,7 @@ const GroupDiscussion = () => {
                 className="text-[28px] font-semibold text-white lg:text-[37px] mt-12 sm:mt-0"
                 style={{ fontFamily: "akira" }}
               >
-                Group Discussion
+                ILLUMINATI
               </h1>
               <p className="mt-6 text-white">
                 GROUP DISCUSSION ON CURRENT AFFAIRS
@@ -35,7 +35,7 @@ const GroupDiscussion = () => {
                 Eligibility
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                Class VI-XII{" "}
+                Class VIII-XII{" "}
               </p>
             </div>
 
@@ -44,17 +44,17 @@ const GroupDiscussion = () => {
                 Event-head
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
-                KyuDekhRhaHai
+                Rishima
                 <br />
-                Whoeverthehell
+                Jhanvi Singh
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
               <h5 className="akira group-hover:text-white transition duration-500 mb-2 text-2xl font-bold text-center items-center tracking-tight text-gray-900 dark:text-white">
-                Time
+                Theme
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                2.5 Hours
+                Artificial Intellligence
               </p>
             </div>
           </div>
@@ -66,42 +66,32 @@ const GroupDiscussion = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Repellendus commodi atque magnam, nobis pariatur voluptate
-                dolorem sapiente itaque id quo!
+                The topic for the group discussion will be revealed on the day
+                of the event itself.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo ab impedit reiciendis earum vitae nulla inventore
-                voluptatum mollitia veritatis doloribus laborum, quis iste vero
-                ullam.
+                There will be three rounds in total. In each round, they will
+                have 5 minutes to prepare for their given topic.
               </p>
             </li>
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
-                cum ipsam architecto neque voluptates eum! kya dekh rha hai ?
+                Each round follows a structured format: first, each participant
+                gets 1 minute for an opening statement. Then, there's a 7-minute
+                group discussion. Finally, the round concludes with 1-minute
+                closing statements from each participant.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Repellendus commodi atque magnam, nobis pariatur voluptate
-                dolorem sapiente itaque id quo!
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo ab impedit reiciendis earum vitae nulla inventore
-                voluptatum mollitia veritatis doloribus laborum, quis iste vero
-                ullam.
+                Electronic devices can be used for research. However, it's
+                important to note that participants can't simply read from their
+                devices during the discussion.
               </p>
             </li>
           </ol>

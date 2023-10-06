@@ -63,33 +63,33 @@ const BrainWars = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Round I-Written Questionnaire
+                Round I- BIG BANG THEORY Questionnaire
                 <br />
-                Round II- Buzzer Round
+                Round II- SCHRODINGER'S CAT Buzzer Round
                 <br />
-                Round III- Quantum Entanglement
+                Round III- QUANTUM ENTAGNLEMENT
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Surprise Rules for Round 3 to be revealed on the day itself.
+                Surprise Rules to be revealed on the day itself.
               </p>
             </li>
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                The questions will include IT, tech, space tech, etc., along
-                with pop culture [movies, shows, and comics].Questions can come
-                from anywhere.
+                The quiz will be based on general topics, that may include
+                questions related to IT, Tech, Space tech, Business, etc. along
+                with Pop Culture [movies, shows and comics].
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                A good preparation tip would be to read up on quiz material and
-                books that can be found easily online and be up-to-date with the
-                latest news and buzz in the tech sector.
+                A good preparation tip would be to stay up to date on Quiz
+                material, comic books, internet pop culture, popular IMDB
+                movies, latest news and buzz in the Tech Sector.
               </p>
             </li>
           </ol>

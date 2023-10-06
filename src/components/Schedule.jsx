@@ -14,14 +14,14 @@ export default function Schedule() {
       >
         THE TIMELINE
       </h1>
-      <Link
+      {/* <Link
         to="/Schedule"
         data-aos="fade-up"
         data-aos-duration="750"
         className="flex justify-center w-max transition duration-500 dark:text-black rounded-3xl mb-14 px-3 py-1 text-base font-semibold leading-7 text-white text-center uppercase border-[2px] hover:bg-gray-50 hover:text-black "
       >
         SEE THE FULL SCHEDULE
-      </Link>
+      </Link> */}
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
         <li className="mb-10 ml-4">
           <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_#007bc4] bg-[#007bc4] rounded-full mt-1.5 -left-1.5"></div>
@@ -44,9 +44,7 @@ export default function Schedule() {
             data-aos-duration="750"
             className="sf mb-4 text-base font-normal text-gray-300  dark:text-black"
           >
-            All schools must report by 8:30 AM. The opening ceremony will begin
-            at 9:00AM. The participants will be informed about the important
-            guidelines prior to the event.
+            All schools must report before 9:00AM. The opening ceremony will take place from 9:00AM to 9:30AM.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -63,7 +61,7 @@ export default function Schedule() {
             data-aos-duration="750"
             className="sf mb-1 text-sm font-normal leading-none text-gray-400  dark:text-black"
           >
-            8:00AM to 2:00PM{" "}
+            9:30AM to 2:00PM{" "}
           </h3>
 
           <p

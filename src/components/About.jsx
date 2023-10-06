@@ -12,7 +12,7 @@ const About = () => {
     <>
       <Transition>
         <div className="h-[auto] text-white  ">
-          <section className=" sm:mt-0 mt-20 AboutDiv p-12 ">
+          <section className=" sm:mt-0 mt-20 AboutDiv lg:p-12 ">
             <div className="AboutContainer">
               <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:py-16 lg:px-6">
                 <div className="font-light text-white sm:text-lg ">

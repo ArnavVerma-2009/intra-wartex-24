@@ -12,7 +12,7 @@ const navigation = [
   { name: "EVENTS", href: "/Events" },
   { name: "ABOUT", href: "/About" },
   { name: "contact", href: "/Contact" },
-  { name: "Schedule", href: "/Schedule" },
+  // { name: "Schedule", href: "/Schedule" },
   // { name: "MAP", href: "/map" },
 ];
 
@@ -23,7 +23,6 @@ function classNames(...classes) {
 const Navbar = (props) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  
   return (
     <header className="inset-x-0 top-0 z-[1000] backdrop-blur-[10px] bg-[#04102b0f] fixed">
       <nav
@@ -87,36 +86,31 @@ const Navbar = (props) => {
                 <div className=" h-full bg-white w-full rounded-3xl overflow-hidden">
                   <Menu.Item>
                     {({ active }) => (
-                      <a
-                        href="#"
+                      <Link
+                        to="https://docs.google.com/forms/d/e/1FAIpQLSe_ZDnY2EY3hNt-YsaM_Tjm2UDrzQk90EibhZ_yIfkXdSyS5g/viewform"
                         className={classNames(
-                          active
-                            ? " text-[#007bc4]"
-                            : "text-black  bg-white",
+                          active ? " text-[#007bc4]" : "text-black  bg-white",
                           "flex justify-center sf font-black transition-all duration-500 items-center text-lg px-4 py-2 h-[50%] "
                         )}
                       >
                         SCHOOL REGISTRATION
-                      </a>
+                      </Link>
                     )}
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <a
-                        href="#"
+                      <Link
+                        to="https://docs.google.com/forms/d/e/1FAIpQLSfGaKTV86O3dj7yMYY--sjl4O4UNTAoLJWLfCe9wd3o9dOMyg/viewform"
                         className={classNames(
-                          active
-                            ? " text-[#007bc4]"
-                            : "text-black  bg-white",
+                          active ? " text-[#007bc4]" : "text-black  bg-white",
                           "flex justify-center sf font-black transition-all duration-500 items-center text-lg px-4 py-2 h-[50%] "
                         )}
+                        target="_blank"
                       >
                         INDIVIDUAL REGISTRATION
-                      </a>
+                      </Link>
                     )}
                   </Menu.Item>
-            
-                 
                 </div>
               </Menu.Items>
             </Transition>
@@ -134,7 +128,12 @@ const Navbar = (props) => {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-8 w-auto" src="/wartex-logo.png" alt="" />
+              <img
+              className="h-12 w-auto"
+              src="/wartex-logo.webp"
+              //
+              alt="ImageHai"
+            />
             </a>
             <button
               type="button"
@@ -159,22 +158,21 @@ const Navbar = (props) => {
                   </Link>
                 ))}
               </div>
-             <Link
-                    onClick={() => setMobileMenuOpen(false)}
-                    
-                    to="/"
-                    className="-mx-3 dark:text-black block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white uppercase  text-center hover:bg-gray-50  hover:text-black navLinks "
-                  >
-                    SCHOOL REGISTRATION
-                  </Link>
-             <Link
-                    onClick={() => setMobileMenuOpen(false)}
-                    
-                    to="/"
-                    className="-mx-3 dark:text-black block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white uppercase  text-center hover:bg-gray-50  hover:text-black navLinks "
-                  >
-                    INDIVIDUAL REGISTRATION
-                  </Link>
+              <Link
+                onClick={() => setMobileMenuOpen(false)}
+                to="https://docs.google.com/forms/d/e/1FAIpQLSe_ZDnY2EY3hNt-YsaM_Tjm2UDrzQk90EibhZ_yIfkXdSyS5g/viewform"
+                className="-mx-3 dark:text-black block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white uppercase  text-center hover:bg-gray-50  hover:text-black navLinks "
+              >
+                SCHOOL REGISTRATION
+              </Link>
+              <Link
+                onClick={() => setMobileMenuOpen(false)}
+                to="https://docs.google.com/forms/d/e/1FAIpQLSfGaKTV86O3dj7yMYY--sjl4O4UNTAoLJWLfCe9wd3o9dOMyg/viewform"
+                target="_blank"
+                className="-mx-3 dark:text-black block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white uppercase  text-center hover:bg-gray-50  hover:text-black navLinks "
+              >
+                INDIVIDUAL REGISTRATION
+              </Link>
               <div className="flex navLinks justify-center py-4 tracking-widest line leading-8 transition ease-in-out duration-[1s]  border-[#fff] rounded-full font-semibold items-center px-8 text-white cursor-pointer  hover:border-white "></div>
             </div>
           </div>

@@ -3,7 +3,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
-
+import upskill from "./../assets/images/upskill.svg";
+import adobe from "./../assets/images/adobe.svg";
+import { Link } from "react-router-dom";
+import Aakash from './../assets/images/aakash.svg'
+Link;
 AOS.init();
 
 export default function Sponsors() {
@@ -26,62 +30,44 @@ export default function Sponsors() {
           >
             THE OFFICAL SPONSORS
           </p>
-          <div className="flex flex-wrap max-w-5xl mx-auto -m-3">
+          <div className="flex flex-wrap max-w-5xl mx-auto my-auto -m-3 justify-center">
             <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-              <div
-                className="flex items-center justify-center py-8 px-9 h-full bg-[#ffffff24] dark:bg-[#000]  rounded-3xl"
-                data-aos="fade-up"
-                data-aos-duration="700"
-              >
-                <img src="" alt="" />
-              </div>
+              <Link to="https://upskillcourses.com" target="_blank">
+                {" "}
+                <div
+                  className="flex items-center justify-center py-8 px-9 h-48 md:h-full upskill-tab   rounded-3xl"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                >
+                  <img src={upskill} alt="" />
+                </div>
+              </Link>{" "}
             </div>
             <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-              <div
-                className="flex items-center justify-center py-8 px-9 h-full bg-[#ffffff24] dark:bg-[#000] rounded-3xl"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-              >
-                <img src="" alt="" />
-              </div>
+              {" "}
+              <Link to="https://www.adobe.com" target="_blank">
+                <div
+                  className="flex items-center justify-center py-8 px-9 h-full bg-[#ffffff] dark:bg-white rounded-3xl"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  <img src={adobe} alt="" />
+                </div>{" "}
+              </Link>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-              <div
-                className="flex items-center justify-center py-8 px-9 h-full bg-[#ffffff24] dark:bg-[#000] rounded-3xl"
-                data-aos="fade-up"
-                data-aos-duration="900"
-              >
-                <img src="" alt="" />
-              </div>
+              {" "}
+              <Link to="https://anthe.aakash.ac.in/" target="_blank">
+                <div
+                  className="flex items-center justify-center py-8 px-9 h-full dark:bg-white bg-[#ffffff] rounded-3xl"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  <img src={Aakash} alt="" />
+                </div>{" "}
+              </Link>
             </div>
-            <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-              <div
-                className="flex items-center justify-center py-8 px-9 h-full bg-[#ffffff24] dark:bg-[#000] rounded-3xl"
-                data-aos="fade-up"
-                data-aos-duration="800"
-              >
-                <img src="" alt="" />
-              </div>
-            </div>
-            <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-              <div
-                className="flex items-center justify-center py-8 px-9 h-full bg-[#ffffff24] dark:bg-[#000] rounded-3xl"
-                data-aos="fade-up"
-                data-aos-duration="900"
-              >
-                <img src="" alt="" />
-              </div>
-            </div>
-            <div className="w-full md:w-1/2 lg:w-1/4 p-3">
-              <div
-                className="flex items-center justify-center py-8 px-9 h-full bg-[#ffffff24] dark:bg-[#000] rounded-3xl"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-              >
-                <img src="" alt="" />
-              </div>
-            </div>
-            <div className="w-full md:w-1/2 lg:w-1/4 p-3">
+            {/* <div className="w-full md:w-1/2 lg:w-1/4 p-3">
               <div
                 className="flex items-center justify-center py-8 px-9 h-full bg-[#ffffff24] dark:bg-[#000] rounded-3xl"
                 data-aos="fade-up"
@@ -98,7 +84,7 @@ export default function Sponsors() {
               >
                 <img src="" alt="" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -139,10 +125,9 @@ export default function Sponsors() {
                       end={55}
                       duration={3}
                       delay={0}
-                    >
-                      
-                    </CountUp>
-                  )}{" "}+
+                    ></CountUp>
+                  )}{" "}
+                  +
                 </h6>
                 <p
                   className="font-bold akira"

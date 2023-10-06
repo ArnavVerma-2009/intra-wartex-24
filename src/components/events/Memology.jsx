@@ -20,7 +20,7 @@ const Memeology = () => {
             <div className="flex justify-center mt-10">
               <img
                 className="object-cover w-full h-96 rounded-xl lg:w-4/5"
-                src="https://images.cnbctv18.com/wp-content/uploads/2022/08/ashneer-grover-3-Meme-1-1019x573.jpg"
+                src="https://steamuserimages-a.akamaihd.net/ugc/269468379391682518/FEF9ED7C2828A785D08EA737082F04BFC144C285/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
               />
             </div>
           </div>
@@ -62,47 +62,46 @@ const Memeology = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Each team can submit a maximum of three memes in video(mp4) or
-                image(jpg/png) format.
+                Each participant can submit a maximum of three memes in video
+                (mp4) or image (jpg/png) format.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Plagiarism or use of pre-existing meme templates (specially
-                image format) is not allowed.
+                Plagiarism or the use of pre-existing meme templates (especially
+                in image format) is not allowed.
               </p>
             </li>
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
                 The idea should be original and not copied from any pre-existing
-                video. You must edit / shoot the video yourself. You can use
-                videos/images from the internet with due acknowledgement
-                (sources in docs file).
+                video. You must edit or shoot the video yourself.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Examples of video memes or short skits can be found at the
+                You can use videos and images from the internet with due
+                acknowledgement (sources should be provided in the docs file).
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 ">
+                Examples of video memes or short skits can be found on the
                 YouTube channels of Gus Johnson, Sven Johnson, ProZD, Dolan
-                Dark, Grandayy, Man carrying Thing, etc.
+                Dark, Grandayy, Man Carrying Thing, etc
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                The meme should not contain any NSFW elements, and not in any
-                way be overly hurtful/offensive. The meme can be edgy, but the
-                difference between edginess and offensive must be kept in mind.
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 ">
-                Any kind of violation of these regulations, will result in
-                disqualification.
+                The meme should not contain any NSFW elements and should not in
+                any way be overly hurtful or offensive. The meme can be edgy,
+                but the difference between edginess and offensiveness must be
+                kept in mind.
               </p>
             </li>
             <li className="mb-10 ml-4">

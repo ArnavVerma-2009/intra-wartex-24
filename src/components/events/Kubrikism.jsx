@@ -63,37 +63,41 @@ const Kubrikism = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Write your own script. You can also ask your family to be the
-                cast for your movie
+                Participants need to present a brief simple story in the given
+                time frame focusing on one core idea.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Once you've recorded all of your short film clips, combine and
-                edit them.
+                Participants are required to present original ideas and show
+                creativity.
               </p>
             </li>
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                You may use any software for editing purposes. If any
-                copyrighted material is used, giving credit is compulsory.
+                Plagiarism is highly discouraged.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Submit your entries till 23th October 2023 on
-                Wartexdata@gmail.com. No entries will be accepted after the said
-                date.
+                Participants may use any software for editing purposes.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                For queries & updates on the event, join our Discord server by
-                clicking on the link below: https://discord.gg/WTpx4uJhSg
+                Giving credit is mandatory in case any copyrighted material is
+                being used.
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 ">
+                Last date of submission is 23rd October, 2023. Entries need to
+                be submitted at wartexdata@gmail.com.{" "}
               </p>
             </li>
             <li className="mb-10 ml-4">

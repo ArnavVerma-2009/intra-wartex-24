@@ -42,17 +42,15 @@ const ReworkRender = () => {
                 Event-head
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
-                KyuDekhRhaHai
-                <br />
-                Whoeverthehell
+                OJAS AGGARWAL <br />{" "}
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
               <h5 className="akira group-hover:text-white transition duration-500 mb-2 text-2xl font-bold text-center items-center tracking-tight text-gray-900 dark:text-white">
-                Time
+                Team
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                2.5 Hours
+                1 member
               </p>
             </div>
           </div>
@@ -64,42 +62,49 @@ const ReworkRender = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Repellendus commodi atque magnam, nobis pariatur voluptate
-                dolorem sapiente itaque id quo!
+                Participants need to edit and produce a video on the given raw
+                footage.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo ab impedit reiciendis earum vitae nulla inventore
-                voluptatum mollitia veritatis doloribus laborum, quis iste vero
-                ullam.
+                Raw footage will be provided to the participants on wartex
+                discord server and wartex community group.
               </p>
             </li>
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
-                cum ipsam architecto neque voluptates eum! kya dekh rha hai ?
+                Participants may use any software for editing.{" "}
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Repellendus commodi atque magnam, nobis pariatur voluptate
-                dolorem sapiente itaque id quo!
+                Time limit for the video is 90 seconds (Minimum 60 seconds) .
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo ab impedit reiciendis earum vitae nulla inventore
-                voluptatum mollitia veritatis doloribus laborum, quis iste vero
-                ullam.
+                a google drive and link shall be sent to wartexdata@gmail.com
+                with the necessary details by 23 October, 2023. Details to be
+                mentioned in the mail -
+                <ul class="list-outside list-disc ml-6">
+                  <li>Your Name </li>
+                  <li>School Name</li>
+                  <li> Class </li>
+                  <li>Software/app used </li>
+                 
+                </ul>
+              </p>
+            </li>{" "}
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
+                Judgement Criteria <br /> Sequence of clips <br /> Originality & Creativity
+                 <br />Sound Effects& Transitions <br /> Color Grading
               </p>
             </li>
           </ol>

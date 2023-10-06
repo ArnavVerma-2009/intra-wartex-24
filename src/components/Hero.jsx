@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Transition from "../transition";
 import bgImage from "./../assets/pxfuel.webp";
 import { MouseParallax, ScrollParallax } from "react-just-parallax";
-
+import Brochure from "./../assets/brochure.pdf";
 const Hero = () => {
   return (
     <>
@@ -34,7 +34,7 @@ const Hero = () => {
               </div>
               <div className="mx-auto max-w-6xl py-20 sm:py-24 lg:py-24">
                 <div className="text-center">
-                  <h1 className="text-[80px] sm:mb-0 mt-4 sm:mt-20 font-thin text-gray-100 sm:text-[200px] hero-heading">
+                  <h1 className="text-[80px] sm:mb-0 mt-4 sm:mt-20  text-gray-100 sm:text-[200px] hero-heading">
                     WARTEX #9.0
                   </h1>
                   <div className=" sm:block">
@@ -83,7 +83,7 @@ const Hero = () => {
                   </div>
                   <div className="block">
                     <div className="mt-0 flex items-center justify-center ">
-                      <div className="">
+                      <div>
                         <p className="mt-2 sm:hidden flex justify-center text-[25px] rounded-md address  text-center  uppercase px-3.5 py-2.5 md:text-sm font-semibold text-white ">
                           26 OCTOBER, 2023
                         </p>
@@ -113,19 +113,30 @@ const Hero = () => {
               </p>
             </div> */}
 
-                  <div className="mt-8 sm:mt-4 flex items-center justify-center gap-x-6">
-                    <Link
-                      to="https://discord.gg/QkDqt6fp"
-                      className="border-2 tracking-widest line text-sm  transition ease-in-out duration-[1s]  border-[#fff] rounded-full font-semibold px-4 py-2.5  text-white cursor-pointer hover:bg-[#5864F2] hover:border-white hover:text-[#fff] "
-                    >
-                      DISCORD
-                    </Link>
-                    <a
-                      href="#"
-                      className="border-2 tracking-widest line text-sm  transition ease-in-out duration-[1s]  border-[#fff] rounded-full font-semibold px-4 py-2.5  text-white cursor-pointer hover:bg-[#ffffff] hover:border-white hover:text-[#280d47]"
-                    >
-                      REGISTER
-                    </a>
+                  <div className="mt-8 sm:mt-4 flex items-center justify-center gap-x-6 flex-col md:flex-row">
+                    <div className="justify-center mb-4 gap-2 sm:mb-0 sm:gap-0 flex flex-col sm:flex-row">
+                      <div className="flex justify-center">
+                        <Link
+                          to="https://discord.gg/EZHQthPNgT"
+                          className="mr-4  akira border-2 tracking-widest line text-sm  transition ease-in-out duration-[1s]  border-[#fff] flex justify-center rounded-full font-semibold px-4 py-2.5  text-white cursor-pointer hover:bg-[#5864F2] hover:border-white hover:text-[#fff] "
+                        >
+                          DISCORD
+                        </Link>
+                      </div>
+                      <Link
+                        to={Brochure}
+                        className="mr-4  akira border-2 tracking-widest line text-sm  transition ease-in-out duration-[1s]  border-[#fff] rounded-full font-semibold px-4 py-2.5  text-white cursor-pointer hover:bg-[#f2ef58] hover:border-white hover:text-[#000] "
+                        target="_blank"
+                      >
+                        BROCHURE
+                      </Link>
+                      <Link
+                        to="https://chat.whatsapp.com/B7I8gUY5f1NHR7CSAADTuc"
+                        className="mr-4  akira border-2 tracking-widest line text-sm  transition ease-in-out duration-[1s]  border-[#fff] rounded-full font-semibold px-4 py-2.5  text-white cursor-pointer hover:bg-[#075e50] hover:border-white hover:text-[#fff] "
+                      >
+                        whatsapp
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

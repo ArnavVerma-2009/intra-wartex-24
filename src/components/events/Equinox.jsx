@@ -17,7 +17,7 @@ const Equinox = () => {
                 EQUINOX
               </h1>
               <p className="mt-6 text-white">
-                WEBSITE DEVELOPMENT USING VARIOUS LANGUAGES
+                HACKATHON [Language to be used ONLY Python]
               </p>
             </div>
 
@@ -37,7 +37,7 @@ const Equinox = () => {
                 Eligibility
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                Class VI-XII{" "}
+                Class IX-XII{" "}
               </p>
             </div>
 
@@ -48,7 +48,7 @@ const Equinox = () => {
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
                 Soumya Pandey
                 <br />
-                Riddhi Goyal
+                Nipun Singhal
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
@@ -68,62 +68,52 @@ const Equinox = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                All the teams will be invited to showcase their websites in the
-                offline finals followed by an interview.
+                Participants will receive challenge questions on the spot, which
+                will have to be completed in the given time frame.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                The theme is AI. Now, this is a bit hazy ? However, we want you
-                to think beyond the box and come up with something you truly
-                would preach for. Something you would use, buy, or live if you
-                were in the position to do so.
+                All participants are expected to maintain a high standard of
+                integrity, honesty, and respect throughout the hackathon.
               </p>
             </li>
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                For each deliverable, the following are strictly permissible:{" "}
-                <br />
-                <br />
-                Development: <br /> I.Create a website based on the prompt and
-                deploy it on the web. <br /> II.Only Google typefaces are
-                permitted. <br /> III.Premade templates are not allowed. <br />{" "}
-                IV.You are free to use any language such as HTML, CSS, python,{" "}
-                or JavaScript but giving credit is compulsory
-                <br /> V.You can use standard libraries like Bootstrap and{" "}
-                tensorflow.js.
-                <span>
-                  <br />
-                  <br />
-                  Pitch Deck:
-                  <br />
-                  I.Create a synopsis of your concept and features.
-                  <br />
-                  <br />
-                  Design: <br /> I. Create a video displaying your website.
-                  II.Addition of Logos, branding, and color schemes will be
-                  appreciated.
-                </span>
+                Plagiarism will result in immediate disqualification.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Submit your entries till 23th October 2023 on
-                Wartexdata@gmail.com for prelims. No entries will be accepted
-                after the said date.
+                Organizers may review code at any time during the event to
+                ensure compliance with the rules.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                For queries & updates on the event, join our Discord server by
-                clicking on the link below:{" "}
-                <Link to=" https://discord.gg/WTpx4uJhSg">
-                  https://discord.gg/WTpx4uJhSg
-                </Link>
+                Participants need to bring their own devices for the event.
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 ">
+                Participants found violating any rules or engaging in unethical
+                behavior, will be disqualified from the hackathon.
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 ">
+                Judgement Criteria <br />
+                Code Quality <br />
+                Correctnes <br />
+                Documentation and Comment <br />
+                Code Optimisation Participants need to bring their own devices
+                for the event.
               </p>
             </li>
           </ol>

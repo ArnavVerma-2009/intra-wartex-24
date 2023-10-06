@@ -42,17 +42,17 @@ const Aperture = () => {
                 Event-head
               </h5>
               <p className=" font-normal text-gray-700 dark:text-gray-400 text-center">
-                KyuDekhRhaHai
+                Gaurav Kumar
                 <br />
-                Whoeverthehell
+                Siddhi Malhotra
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
               <h5 className=" akira group-hover:text-white transition duration-500 mb-2 text-2xl font-bold text-center items-center tracking-tight text-gray-900 dark:text-white">
-                Time
+                Team
               </h5>
               <p className=" font-normal text-gray-700 dark:text-gray-400 text-center">
-                2.5 Hours
+                1-2
               </p>
             </div>
           </div>
@@ -64,42 +64,88 @@ const Aperture = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Repellendus commodi atque magnam, nobis pariatur voluptate
-                dolorem sapiente itaque id quo!
+                Only DSLR/Semi DSLR photography is allowed.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo ab impedit reiciendis earum vitae nulla inventore
-                voluptatum mollitia veritatis doloribus laborum, quis iste vero
-                ullam.
+                No mobile photography is allowed.
               </p>
             </li>
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
-                cum ipsam architecto neque voluptates eum! kya dekh rha hai ?
+                Participants must demonstrate a good understanding of the
+                technical aspects of photography, including proper focus,
+                exposure and composition.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Repellendus commodi atque magnam, nobis pariatur voluptate
-                dolorem sapiente itaque id quo!
+                Participants are allowed to use post processing tools such as
+                Adobe lightroom to a limited extent to enhance their
+                photographs, but the main focus should be on capturing great
+                photographs with camera.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo ab impedit reiciendis earum vitae nulla inventore
-                voluptatum mollitia veritatis doloribus laborum, quis iste vero
-                ullam.
+                Discouraging excessive or misleading editing techniques that
+                alter the original context or intent of the photograph is
+                strictly prohibited.
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 ">
+                Both the photographs will need to be attached while submitting
+                the entry i.e. the edited one and the original photograph
+                otherwise the entry will not be considered valid.{" "}
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 ">
+                Each team will have to submit 5 best photographs (per round)
+                captured by them and mail us before the given timestamp.{" "}
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 ">
+                Kindly bring your devices such as memory cards, batteries,
+                laptop, etc. fully charged.{" "}
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 ">
+                There will be two rounds, tasks for both the rounds will be
+                revealed on the spot Ensure that the participants understand the
+                task and encourage them to capture photographs that reflect it
+                effectively Participants are expected to follow ethical
+                photography practices & must respect the privacy and consent of
+                individuals who may appear in their photographs
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
+                Any participant/team found entering the restricted areas will be
+                immediately disqualified An experiment with different angles and
+                aspects is the key to win.  
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 ">
+                Judgment Criteria: <br />
+                • Creativity and Originality - 10 Marks <br />
+                • Technical Skills - 10 Marks <br />
+                • Theme Interpretation - 5 Marks <br />• Visual Impact - 5 Marks
               </p>
             </li>
           </ol>

@@ -65,23 +65,23 @@ const Minecraft = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Game for Round 1 – Minecraft Hunger Games (Online) <br /> Game
-                for Round 2 – Bedwars(offline) <br /> Game for Round 3- To be
-                decided(offline)
+                It will be a multiple-round event Round one, the Hunger Games
+                will be conducted online, and the players will be selected
+                according to their performance in the first round
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Round one, Hunger Games, will be conducted online, and the
-                players will be selected according to that for the second and
-                third rounds.
+                All updates and details will be announced on the WhatsApp group
+                and Minecraft channel of the Wartex Discord server
               </p>
             </li>
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                Rounds 2 and 3 will held on the same day, in offline mode.
+                Round 2 and 3 will be held on 26 October, in offline mode in the
+                school premises{" "}
               </p>
             </li>
             <li className="mb-10 ml-4">

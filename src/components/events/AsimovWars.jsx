@@ -44,7 +44,8 @@ const AsimovWars = () => {
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
                 Yash Mehra
-                <br />{" "}
+                <br />
+                Swastik Verma
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
@@ -64,7 +65,7 @@ const AsimovWars = () => {
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 The event will follow a bracket-style tournament format, similar
-                to the one seen in the TV show "BattleBots. This means that
+                to the one seen in the TV show "BattleBots”. This means that
                 participants will compete in one-on-one battles, with winners
                 advancing to the next round until a champion is determined.
               </p>
@@ -80,9 +81,8 @@ const AsimovWars = () => {
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                All weapons installed on the robots must be non-lethal to
-                humans. Participants should carefully consider the potential
-                risks associated with their robot's weaponry.
+                The robot should not exceed 16 X 16 inches dimensions. Any robot
+                exceeding the given dimensions will be disqualified.
               </p>
             </li>
             <li className="mb-10 ml-4">
@@ -101,6 +101,7 @@ const AsimovWars = () => {
                 While there are no specific restrictions on the tools and
                 weaponry, participants are advised to develop their robots with
                 features that will give them an edge over their competitors.
+                Judgement Criteria will be revealed on the spot.
               </p>
             </li>
           </ol>

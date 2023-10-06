@@ -11,7 +11,7 @@
 }
 @font-face {
   font-family: "Thunder";
-  src: url("./font/Thunder-ExtraBoldLC.ttf");
+  src: url("./font/Thunder-BlackLC.ttf");
 }
 @font-face {
   font-family: "stretch";
@@ -35,12 +35,15 @@
 }
 body {
   background-color: black;
+  
 }
 html {
   user-select: none;
   overflow-x: hidden;
 }
-
+.thunder{
+  font-family: "Thunder";
+}
 ::selection {
   background-color: #00000000;
   color: white;
@@ -194,4 +197,7 @@ td {
 }
 #myCursor {
   display: hidden;
+}
+.upskill-tab{
+  background:linear-gradient(90deg, #6555DE, #4E80DE)
 }

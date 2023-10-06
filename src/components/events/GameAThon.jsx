@@ -52,7 +52,7 @@ const GameAThon = () => {
                 Theme
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                Chandrayan 2 & 3
+                Space & Technology
               </p>
             </div>
           </div>
@@ -64,35 +64,33 @@ const GameAThon = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                A group of 2 participants should work together to make a game on
-                scratch.
+                Each team consists of two participants who will collaborate to
+                create a game from scratch All games must be based on the theme
+                provided.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                There is a theme on which the students have to make their game
-                on scratch.
+                Participants are not allowed to use the internet or any online
+                resources during the competition.
               </p>
             </li>
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                No Google and internet can be used.
+                Teams can choose to create either a game or a story, but it must
+                align with the provided theme.
               </p>
             </li>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Use your creativity
+                Each team must prepare a concise 5minute presentation to explain
+                and showcase their creation to the judges.
               </p>
             </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 ">
-                You cannot copy paste the codes.
-              </p>
-            </li>
+
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">

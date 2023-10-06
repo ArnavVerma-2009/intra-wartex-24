@@ -6,7 +6,9 @@ module.exports = withMT({
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode : "class",
   theme: {
-    extend: {},
+    extend: {
+      opacity: ['disabled'],
+    },
     screens: {
       sm: "640px",
       // => @media (min-width: 640px) { ... }

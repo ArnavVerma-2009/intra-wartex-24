@@ -13,7 +13,7 @@
     --height: clamp(400px, 40vw, 400px);
     --x: calc(var(--active) * 800%);
     --y: calc(var(--active) * 200%);
-    --rot: calc(var(--active) * 120deg);
+    --rot: calc(var(--active) * 180deg);
     --opacity: calc(var(--zIndex) / var(--items) * 3 - 2);
     overflow: hidden;
     position: absolute;
