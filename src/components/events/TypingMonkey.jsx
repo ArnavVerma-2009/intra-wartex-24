@@ -43,6 +43,10 @@ const TypingMonkey = () => {
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
                 Jaishree Sharma
+
+                <br />
+
+                Ojas Sahni
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">

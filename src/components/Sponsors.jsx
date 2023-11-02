@@ -31,7 +31,7 @@ export default function Sponsors() {
             THE OFFICAL SPONSORS
           </p>
           <div className="flex flex-wrap max-w-5xl mx-auto my-auto -m-3 justify-center">
-            <div className="w-full md:w-1/2 lg:w-1/4 p-3">
+            {/* <div className="w-full md:w-1/2 lg:w-1/4 p-3">
               <Link to="https://upskillcourses.com" target="_blank">
                 {" "}
                 <div
@@ -42,7 +42,7 @@ export default function Sponsors() {
                   <img src={upskill} alt="" />
                 </div>
               </Link>{" "}
-            </div>
+            </div> */}
             <div className="w-full md:w-1/2 lg:w-1/4 p-3">
               {" "}
               <Link to="https://www.adobe.com" target="_blank">

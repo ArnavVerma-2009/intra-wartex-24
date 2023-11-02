@@ -46,7 +46,7 @@ const Equinox = () => {
                 Event-head
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
-                Soumya Pandey
+                Garvit Singh Negi   
                 <br />
                 Nipun Singhal
               </p>

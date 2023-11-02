@@ -46,7 +46,7 @@ const Ragnarok = () => {
                 <br />
                 Pratham Dhyani
                 <br />
-                Abhinav Kumar
+                Kanishk Kandpal
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
@@ -67,6 +67,12 @@ const Ragnarok = () => {
               <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 Ragnarok is a 2-day event.
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
+                The prelims for ragnarok will be held on 22 October (online).
               </p>
             </li>
             <li className="mb-10 ml-4">

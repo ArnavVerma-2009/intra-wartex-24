@@ -42,6 +42,7 @@ import EventPage from "./components/eventPage";
 import TypingMonkey from "./components/events/TypingMonkey";
 import SchedulePage from "./components/SchedulePage";
 import transition from "./transition";
+import Video from "./components/Video";
 
 // Scroll to top function
 
@@ -109,7 +110,9 @@ function App() {
                 <Guidelines />
                 <Events />
                 <ApexTeam />
+                <Video/>
                 <Faq />
+
               </>
             }
           />

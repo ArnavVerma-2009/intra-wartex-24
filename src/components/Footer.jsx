@@ -195,7 +195,7 @@ export default function Footer() {
                 &copy; {new Date().getFullYear()} WARTEX | WEBSITE MADE BY
                 <Link
                   className="underline underline-offset-4"
-                  to="https://www.youtube.com/shorts/gAOLrRPMfos"
+                  to="https://www.youtube.com/watch?v=xvFZjo5PgG0"
                 >
                   {" "}
                   ARNAV VERMA & ADVIK AGGARWAL

@@ -42,8 +42,7 @@ const GameAThon = () => {
                 Event-head
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
-                Misha Mudgal
-                <br />
+                Misha Mudgal <br />
                 Shreya Saxena
               </p>
             </div>

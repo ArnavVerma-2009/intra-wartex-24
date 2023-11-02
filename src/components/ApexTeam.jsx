@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import AOS from 'aos';
+import AOS from "aos";
 import YashMehra from "./../assets/TeamMembers/YashMehra.webp";
 import RiddhiGoel from "./../assets/TeamMembers/RiddhiGoel.webp";
 import OjasAggarwal from "./../assets/TeamMembers/OjasAggarwal.webp";
@@ -13,112 +13,110 @@ import JaishreeSharma from "./../assets/TeamMembers/JaishreeSharma.webp";
 import SwastikVerma from "./../assets/TeamMembers/SwastikVerma.webp";
 import SiddhiMalhotra from "./../assets/TeamMembers/SiddhiMalhotra.webp";
 
-
-AOS.init()
+AOS.init();
 
 const TeamMetaData = [
-    {
-      id: 1,
-      Name: "YASH MEHRA",
-      Image: `${YashMehra}`,
-      Designation: "President",
-      InstaLink: "https://www.instagram.com/thedelhibro",
-      delay:2000
-    },
-    {
-      id: 2,
-      Name: "RIDDHI GOEL",
-      Image: `${RiddhiGoel}`,
-      Designation: "Vice President",
-      InstaLink: "https://www.instagram.com/thedelhibro",
-      delay:2400
-    },
-    {
-      id: 3,
-      Name: "OJAS AGGARWAL",
-      Image: `${OjasAggarwal}`,
-      Designation: "VFX Head & Executive",
-      InstaLink: "",
-      delay:2800
-    },
-    {
-      id: 4,
-      Name: "RISHIMA JHAMB",
-      Image: `${RishimaJhamb}`,
-      Designation: "Coordinator",
-      InstaLink: "",
-      delay:2800
-    },
-    {
-      id: 5,
-      Name: "NIPUN SINGHAL",
-      Image: `${NipunSinghal}`,
-      Designation: "Coordinator",
-      InstaLink: "",
-      delay:2400
-  
-    },
-    {
-      id: 6,
-      Name: "ARNAV VERMA",
-      Image: `${ArnavVerma}`,
-      Designation: "website developer",
-      InstaLink: "",
-      delay:2000
-    },
-    {
-      id: 7,
-      Name: "ADVIK AGGARWAL",
-      Image: `${AdvikAggarwal}`,
-      Designation: "Website Developer",
-      InstaLink: "",
-      delay:2000
-    },
-   
-    {
-      id: 10,
-      Name: "GAURAV KUMAR",
-      Image: `${GauravKumar}`,
-      Designation: "Organising Commitee",
-      InstaLink: "",
-      delay :2800
-    },
-  
-    {
-      id: 11,
-      Name: "SWASTIK VERMA",
-      Image: `${SwastikVerma}`,
-      Designation: "Organising Commitee",
-      InstaLink: "",
-      delay :2400
-    },
-    {
-      id: 12,
-      Name: "SIDDHI MALHOTRA",
-      Image: `${SiddhiMalhotra}`,
-      Designation: "Photography head",
-      InstaLink: "",
-      delay:2000
-    }, {
-      id: 8,
-      Name: "JAISHREE SHARMA",
-      Image: `${JaishreeSharma}`,
-      Designation: "Literary Head",
-      InstaLink: "",
-      delay :2400
-    },
-  
-    {
-      id: 9,
-      Name: "JHANVI SINGH",
-      Image: `${JhanviSingh}`,
-      Designation: "Literary Head",
-      InstaLink: "",
-      delay :2800
-    },
-  ];
+  {
+    id: 1,
+    Name: "YASH MEHRA",
+    Image: `${YashMehra}`,
+    Designation: "President",
+    InstaLink: "https://www.instagram.com/thedelhibro",
+    delay: 2000,
+  },
+  {
+    id: 2,
+    Name: "RIDDHI GOEL",
+    Image: `${RiddhiGoel}`,
+    Designation: "Vice President",
+    InstaLink: "https://www.instagram.com/thedelhibro",
+    delay: 2400,
+  },
 
+  {
+    id: 4,
+    Name: "RISHIMA JHAMB",
+    Image: `${RishimaJhamb}`,
+    Designation: "Executive",
+    InstaLink: "",
+    delay: 2800,
+  },
+  {
+    id: 3,
+    Name: "OJAS AGGARWAL",
+    Image: `${OjasAggarwal}`,
+    Designation: "VFX Head &  Coordinator",
+    InstaLink: "",
+    delay: 2800,
+  },
+  {
+    id: 5,
+    Name: "NIPUN SINGHAL",
+    Image: `${NipunSinghal}`,
+    Designation: "Coordinator",
+    InstaLink: "",
+    delay: 2400,
+  },
+  {
+    id: 6,
+    Name: "ARNAV VERMA",
+    Image: `${ArnavVerma}`,
+    Designation: "website developer",
+    InstaLink: "",
+    delay: 2000,
+  },
+  {
+    id: 7,
+    Name: "ADVIK AGGARWAL",
+    Image: `${AdvikAggarwal}`,
+    Designation: "Website Developer",
+    InstaLink: "",
+    delay: 2000,
+  },
 
+  {
+    id: 10,
+    Name: "GAURAV KUMAR",
+    Image: `${GauravKumar}`,
+    Designation: "Operations Manager",
+    InstaLink: "",
+    delay: 2800,
+  },
+
+  {
+    id: 11,
+    Name: "SWASTIK VERMA",
+    Image: `${SwastikVerma}`,
+    Designation: "Organising Head",
+    InstaLink: "",
+    delay: 2400,
+  },
+  {
+    id: 12,
+    Name: "SIDDHI MALHOTRA",
+    Image: `${SiddhiMalhotra}`,
+    Designation: "Photography head",
+    InstaLink: "",
+    delay: 2000,
+  },
+  {
+    id: 8,
+    Name: "JAISHREE SHARMA",
+    Image: `${JaishreeSharma}`,
+    Designation: "Literary Head",
+    InstaLink: "",
+    delay: 2400,
+  },
+
+  {
+    id: 9,
+    Name: "JHANVI SINGH",
+    Image: `${JhanviSingh}`,
+    Designation: "Literary Head",
+    InstaLink: "",
+    delay: 2800,
+  },
+];
 
 export const ApexTeam = () => {
   return (
@@ -147,13 +145,16 @@ export const ApexTeam = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
               {TeamMetaData.map((data) => (
                 <div key={data.id}>
-                  <div  data-aos="fade-up" data-aos-duration={data.delay} className=" group relative block bg-black overflow-hidden drop-shadow-[0_0px_0px_#007bc4]   my-8 sm:my-0 aspect-[8/10] rounded-xl   border-[4px] border-[#007bc4] ">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-duration={data.delay}
+                    className=" group relative block bg-black overflow-hidden drop-shadow-[0_0px_0px_#007bc4]   my-8 sm:my-0 aspect-[8/10] rounded-xl   border-[4px] border-[#007bc4] "
+                  >
                     <img
                       style={{
                         // backgroundImage: `url(${data.Image})`,
                         backgroundSize: "cover",
                         aspectRatio: "8/10",
-                        
                       }}
                       alt={data.Name}
                       src={data.Image}
@@ -164,17 +165,15 @@ export const ApexTeam = () => {
                     />
 
                     <div className="relative flex flex-col items-start justify-end h-full  p-4 sm:p-5 lg:p-7 ">
-                   <p className="sf relative text-xl font-bold text-white md:text-2xl sm:text-[13px]">
+                      <p className="sf relative text-xl font-bold text-white md:text-2xl sm:text-[13px]">
                         {data.Name}
                       </p>
-                       <p className="sf relative text-sm sm:text-[9px] md:text-[15px] uppercase tracking-widest text-white font-bold">
+                      <p className="sf relative text-sm sm:text-[9px] md:text-[15px] uppercase tracking-widest text-white font-bold">
                         {data.Designation}
                       </p>
-                    
-          
                     </div>
                   </div>
-                 </div>
+                </div>
               ))}
             </div>
           </div>

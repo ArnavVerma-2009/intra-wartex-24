@@ -62,59 +62,16 @@ const Navbar = (props) => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
-          <Menu as="div" className="relative inline-block text-center">
+          {/* < as="div" className="relative inline-block text-center"> */}
             <div>
-              <Menu.Button className="sf inline-flex w-full justify-center items-center  gap-x-1.5 rounded-3xl text-white px-3 py-2 text-lg font-semibold shadow-sm border-[2px] border-white hover:bg-gray-50 transition duration-500 hover:text-[#007bc4]">
-                REGISTER
-                <ChevronDownIcon
-                  className=" h-5 w-5 text-gray-400"
-                  aria-hidden="true"
-                />
-              </Menu.Button>
+              <Link to="https://docs.google.com/document/d/1mqsiPg6BDA0QO3mozxadofpTgXzC8lHTImN9jEdPnkk/edit?usp=sharing" target="_blank" className="sf inline-flex w-full justify-center items-center  gap-x-1.5 rounded-3xl text-white px-3 py-2 text-lg font-semibold shadow-sm border-[2px] border-white hover:bg-gray-50 transition duration-500 hover:text-[#007bc4]">
+                RESULTS
+               
+              </Link>
             </div>
 
-            <Transition
-              as={Fragment}
-              enter="transition ease-out duration-100"
-              enterFrom="transform opacity-0 scale-95"
-              enterTo="transform opacity-100 scale-100"
-              leave="transition ease-in duration-75"
-              leaveFrom="transform opacity-100 scale-100"
-              leaveTo="transform opacity-0 scale-95"
-            >
-              <Menu.Items className="rounded-2xl absolute right-0 z-10 mt-2 w-[300px] h-[150px] origin-top-right  backdrop-blur-[10px] bg-[#04102b0f] flex justify-center bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                <div className=" h-full bg-white w-full rounded-3xl overflow-hidden">
-                  <Menu.Item>
-                    {({ active }) => (
-                      <Link
-                        to="https://docs.google.com/forms/d/e/1FAIpQLSe_ZDnY2EY3hNt-YsaM_Tjm2UDrzQk90EibhZ_yIfkXdSyS5g/viewform"
-                        className={classNames(
-                          active ? " text-[#007bc4]" : "text-black  bg-white",
-                          "flex justify-center sf font-black transition-all duration-500 items-center text-lg px-4 py-2 h-[50%] "
-                        )}
-                      >
-                        SCHOOL REGISTRATION
-                      </Link>
-                    )}
-                  </Menu.Item>
-                  <Menu.Item>
-                    {({ active }) => (
-                      <Link
-                        to="https://docs.google.com/forms/d/e/1FAIpQLSfGaKTV86O3dj7yMYY--sjl4O4UNTAoLJWLfCe9wd3o9dOMyg/viewform"
-                        className={classNames(
-                          active ? " text-[#007bc4]" : "text-black  bg-white",
-                          "flex justify-center sf font-black transition-all duration-500 items-center text-lg px-4 py-2 h-[50%] "
-                        )}
-                        target="_blank"
-                      >
-                        INDIVIDUAL REGISTRATION
-                      </Link>
-                    )}
-                  </Menu.Item>
-                </div>
-              </Menu.Items>
-            </Transition>
-          </Menu>
+           
+          
         </div>
       </nav>
       <Dialog
