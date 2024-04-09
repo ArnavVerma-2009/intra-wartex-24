@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import styles from "./../components/styles/EventPage.css";
-
+n
 import Aperture from "./../assets/eventThumbnails/Aperture.webp";
 import CrypticHunt from "./../assets/eventThumbnails/crypticHunt.webp";
 import BrainWars from "./../assets/eventThumbnails/BrainWars.webp";
