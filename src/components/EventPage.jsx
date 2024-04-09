@@ -137,7 +137,7 @@ const EventPage = () => {
             <div className="h-[32rem] bg-black ">
               <div className="container px-6 py-10 mx-auto">
                 <h1
-                  className="mb-2 text-4xl text-[#007bc4] drop-shadow-[0_0px_35px_#007bc4]  text-center font-semibold uppercase tracking-px heading"
+                  className="mb-2 text-4xl text-[var(--primary-color)] drop-shadow-[0_0px_35px_var(--primary-color)]  text-center font-semibold uppercase tracking-px heading"
                   data-aos="fade-up"
                 >
                   THE LEGENDARY EVENTS
@@ -167,7 +167,7 @@ const EventPage = () => {
                         backgroundImage: `url(${data.imageLink})`,
                         backgroundSize: "cover",
                       }}
-                      className=" group h-[350px] sm:h-[550px] sm:w-[550px] w-[350px] relative block bg-[#ffffff04] overflow-hidden drop-shadow-[0_0px_0px_#007bc4]   my-8 sm:my-0 aspect-[1/1] rounded-xl   sm:border-[4px] border-[2px] border-[#007bc4] "
+                      className=" group h-[350px] sm:h-[550px] sm:w-[550px] w-[350px] relative block bg-[#ffffff04] overflow-hidden drop-shadow-[0_0px_0px_var(--primary-color)]   my-8 sm:my-0 aspect-[1/1] rounded-xl   sm:border-[4px] border-[2px] border-[var(--primary-color)] "
                     >
                       <div className="screen-overlay"></div>
 

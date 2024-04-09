@@ -212,14 +212,14 @@ const Contact = () => {
             <h1
               data-aos="fade-up"
               data-aos-duration="750"
-              className="drop-shadow-[0_0px_35px_#007bc4] text-center text-[#007bc4] mb-14 text-4xl heading"
+              className="drop-shadow-[0_0px_35px_var(--primary-color)] text-center text-[var(--primary-color)] mb-14 text-4xl heading"
             >
               MORE WAYS TO CONTACT
             </h1>
             <ol className="relative">
               {cardData.map((data, key) => (
                 <li className="mb-10 ml-4" key={key}>
-                  <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_#007bc4] bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+                  <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
                   <p
                     data-aos="fade-up"
                     data-aos-duration="750"

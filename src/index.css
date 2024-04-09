@@ -14,3 +14,7 @@ body{
     font-weight: 900;
     letter-spacing: 1px;
 }
+
+:root{
+    --primary-color : #ef0aff
+}

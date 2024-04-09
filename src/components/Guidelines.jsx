@@ -9,13 +9,13 @@ export default function Guidelines() {
       <h1
         data-aos="fade-up"
         data-aos-duration="750"
-        className="drop-shadow-[0_0px_35px_#007bc4] text-center text-[#007bc4] mb-14 text-4xl heading"
+        className="drop-shadow-[0_0px_35px_var(--primary-color)] text-center text-[var(--primary-color)] mb-14 text-4xl heading"
       >
         THE GUIDELINES
       </h1>
       <ol className="relative">
         <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_#007bc4] bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
           <p
             data-aos="fade-up"
             data-aos-duration="750"
@@ -25,7 +25,7 @@ export default function Guidelines() {
           </p>
         </li>
         <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_#007bc4] bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
           <p
             data-aos="fade-up"
             data-aos-duration="750"
@@ -36,7 +36,7 @@ Participants need to register at: wartex.co.in
           </p>
         </li>
         <li className="ml-4 mb-10">
-          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_#007bc4] bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
           <p
             data-aos="fade-up"
             data-aos-duration="750"
@@ -46,7 +46,7 @@ Participants need to register at: wartex.co.in
           </p>
         </li>
         <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_#007bc4] bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
           <p
             data-aos="fade-up"
             data-aos-duration="750"
@@ -57,7 +57,7 @@ Last date of submission for online events is 23rd  October till midnight.
           </p>
         </li>
         <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_#007bc4] bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
           <p
             data-aos="fade-up"
             data-aos-duration="750"
@@ -68,17 +68,17 @@ Date of prelims for every hybrid event is mentioned along with the rules of that
           </p>
         </li>
         <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_#007bc4] bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
           <p
             data-aos="fade-up"
             data-aos-duration="750"
             className="sf mb-4 text-base font-normal text-gray-300 dark:text-black"
           >
-           All offline events will be conducted in the SRDAV Public School premises on 26th  October 2023.
+           All offline events will be conducted in the SRDAV Public School premises on XX JULY, 2024.
           </p>
         </li>
         <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_#007bc4] bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
           <p
             data-aos="fade-up"
             data-aos-duration="750"
@@ -88,7 +88,7 @@ Date of prelims for every hybrid event is mentioned along with the rules of that
           </p>
         </li>
         <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_#007bc4] bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
           <p
             data-aos="fade-up"
             data-aos-duration="750"
@@ -98,7 +98,7 @@ Date of prelims for every hybrid event is mentioned along with the rules of that
           </p>
         </li>
         <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_#007bc4] bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
           <p
             data-aos="fade-up"
             data-aos-duration="750"
@@ -108,7 +108,7 @@ Date of prelims for every hybrid event is mentioned along with the rules of that
           </p>
         </li>
         <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_#007bc4] bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
           <p
             data-aos="fade-up"
             data-aos-duration="750"

@@ -44,6 +44,10 @@ import SchedulePage from "./components/SchedulePage";
 import transition from "./transition";
 import Video from "./components/Video";
 
+
+import Lenis from "@studio-freight/lenis";
+
+
 // Scroll to top function
 
 function scrollToTop() {
@@ -55,6 +59,25 @@ function scrollToTop() {
 }
 
 function App() {
+
+  const lenis = new Lenis({
+    duration: 1, // speed
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // https://www.desmos.com/calculator/brs54l4xou
+    direction: "vertical", // vertical, horizontal
+    gestureDirection: "vertical", // vertical, horizontal, both
+    smooth: true,
+    mouseMultiplier: 0.5, // sensibility
+    smoothTouch: false, // Mobile
+    touchMultiplier: 2, // sensibility on mobile
+    infinite: false, // Infinite scrolling
+  });
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
   return (
     <>
       <AnimatePresence  mode="wait">
@@ -71,7 +94,7 @@ function App() {
             showSystemCursor={false}
             outerStyle={{
               mixBlendMode: "exclusion",
-              backgroundColor: "#fff",
+              backgroundColor: "#ffffff50",
               zIndex: 10000000000,
             }}
             clickables={[
@@ -105,12 +128,12 @@ function App() {
                 <div className="landingPage">
                   <Hero />
                 </div>
-                <Sponsors />
+                {/* <Sponsors /> */}
                 <Schedule />
                 <Guidelines />
                 <Events />
                 <ApexTeam />
-                <Video/>
+                {/* <Video/> */}
                 <Faq />
 
               </>
@@ -123,7 +146,8 @@ function App() {
             element={
               <>
                 <div className="landingPage mb-20">
-                  <TeamPage />
+                  {/* <TeamPage /> */}
+                  <ApexTeam />
                 </div>
               </>
             }

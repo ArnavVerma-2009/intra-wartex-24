@@ -19,7 +19,7 @@ const Hero = () => {
         </ScrollParallax>
         <div className="hero h-[100vh] flex justify-center items-center">
           <div className="">
-            <div className="relative isolate px-6  lg:px-8">
+            <div className="relative flex justify-center items-center isolate px-6  lg:px-8">
               <div
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
                 aria-hidden="true"
@@ -33,10 +33,16 @@ const Hero = () => {
               /> */}
               </div>
               <div className="mx-auto max-w-6xl py-20 sm:py-24 lg:py-24">
-                <div className="text-center">
-                  <h1 className="text-[80px] sm:mb-0 mt-4 sm:mt-20  text-gray-100 sm:text-[200px] hero-heading">
+                <div className="text-center sm:mt-20">
+                  <h1 className="text-[80px] sm:mb-0 mt-4   text-gray-100 sm:text-[200px] hero-heading">
                     WARTEX #9.0
                   </h1>
+                  <div
+                    className="text-white pb-4 text-2xl font-black
+              "
+                  >
+                    AND THE TEAM REGISTRATION FORM IS OUT
+                  </div>
                   <div className=" sm:block">
                     <div className="mt-4 sm:mt-0 flex items-center justify-center ">
                       <svg
@@ -77,19 +83,20 @@ const Hero = () => {
                       </svg>
 
                       <p className="date md:text-sm hidden sm:block text-[30px] text-left font-semibold ml-4 leading-6 text-white  uppercase">
-                        26 OCTOBER, 2023
+                        XX JULY, 2024
                       </p>
                     </div>
                   </div>
-                  <div className="block">
+                  {/* <div className="block">
                     <div className="mt-0 flex items-center justify-center ">
                       <div>
                         <p className="mt-2 sm:hidden flex justify-center text-[25px] rounded-md address  text-center  uppercase px-3.5 py-2.5 md:text-sm font-semibold text-white ">
-                          26 OCTOBER, 2023
+                          XX JULY, 2024
                         </p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
+
                   {/* <div className="mt-6 flex items-center justify-center sm:hidden ">
               
               <svg

@@ -34,7 +34,7 @@ export default function Example() {
 
   return (
     <div className="p-4 sm:p-28 xl:p-42 mb-20 sm:mb-0 bg-black dark:bg-[#ebe2e2] dark:text-black">
-      <h1 className="sf text-center drop-shadow-[0_0px_35px_#007bc4] text-[#007bc4] mb-14 text-4xl heading">
+      <h1 className="sf text-center drop-shadow-[0_0px_35px_var(--primary-color)] text-[var(--primary-color)] mb-14 text-4xl heading">
         FREQUENTLY ASKED QUES
       </h1>
       <Fragment >
@@ -43,7 +43,7 @@ export default function Example() {
             data-aos="fade-up"
             style={{ fontFamily: "akira", transition: "all 500ms" }}
             onClick={() => handleOpen(1)}
-            className=" text-white dark:text-black hover:text-[#007bc4] hover:drop-shadow-[0_0px_35px_#007bc4]"
+            className=" text-white dark:text-black hover:text-[var(--primary-color)] hover:drop-shadow-[0_0px_35px_var(--primary-color)]"
           >
             What is Wartex ?
           </AccordionHeader>
@@ -62,7 +62,7 @@ export default function Example() {
             style={{ fontFamily: "akira", transition: "all 500ms" }}
             data-aos="fade-up"
             onClick={() => handleOpen(2)}
-            className="text-white hover:text-[#007bc4]  hover:drop-shadow-[0_0px_35px_#007bc4]"
+            className="text-white hover:text-[var(--primary-color)]  hover:drop-shadow-[0_0px_35px_var(--primary-color)]"
           >
             How can i participate ?
           </AccordionHeader>
@@ -81,7 +81,7 @@ export default function Example() {
             style={{ fontFamily: "akira", transition: "all 500ms" }}
             data-aos="fade-up"
             onClick={() => handleOpen(3)}
-            className="text-white dark:text-black hover:text-[#007bc4]  hover:drop-shadow-[0_0px_35px_#007bc4]"
+            className="text-white dark:text-black hover:text-[var(--primary-color)]  hover:drop-shadow-[0_0px_35px_var(--primary-color)]"
           >
             Who can participate ?
           </AccordionHeader>
@@ -98,7 +98,7 @@ export default function Example() {
             style={{ fontFamily: "akira", transition: "all 500ms" }}
             data-aos="fade-up"
             onClick={() => handleOpen(4)}
-            className="text-white dark:text-black hover:text-[#007bc4]  hover:drop-shadow-[0_0px_35px_#007bc4]"
+            className="text-white dark:text-black hover:text-[var(--primary-color)]  hover:drop-shadow-[0_0px_35px_var(--primary-color)]"
           >
             When will the event take place ?
           </AccordionHeader>
@@ -114,7 +114,7 @@ export default function Example() {
             style={{ fontFamily: "akira", transition: "all 500ms" }}
             data-aos="fade-up"
             onClick={() => handleOpen(5)}
-            className="text-white dark:text-black hover:text-[#007bc4]  hover:drop-shadow-[0_0px_35px_#007bc4]"
+            className="text-white dark:text-black hover:text-[var(--primary-color)]  hover:drop-shadow-[0_0px_35px_var(--primary-color)]"
           >
             Is it mandatory to join the Discord server ?
           </AccordionHeader>

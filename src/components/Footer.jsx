@@ -1,12 +1,12 @@
 import React from "react";
-import bgImage from "./../assets/footer-img.webp";
+import bgImage from "./../assets/images/footer.jpg"
 import { Link } from "react-router-dom";
 import logo from "/logoFooter.webp";
 
 export default function Footer() {
   return (
     <>
-      <footer className="bg-[#005fc4] lg:grid lg:grid-cols-5 Footer">
+      <footer className="bg-[var(--primary-color)] lg:grid lg:grid-cols-5 Footer">
         <div className="relative block h-96 lg:col-span-2 lg:h-full">
           <img
             src={bgImage}
@@ -17,11 +17,10 @@ export default function Footer() {
             h-full
             w-full
             object-cover
-            
             contrast-[1.1]
           "
           />
-          <div className="absolute z-10 lg:bg-gradient-to-l bg-gradient-to-t from-[#005fc4] from-20% via-15% via-[#005fc4]  h-full w-full" />
+          <div className="absolute z-10 lg:bg-gradient-to-l bg-gradient-to-t from-[var(--primary-color)] from-20% via-15% via-[var(--primary-color)]  h-full w-full" />
         </div>
 
         <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">

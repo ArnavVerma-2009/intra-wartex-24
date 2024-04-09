@@ -50,7 +50,7 @@ const About = () => {
                     src={MadhavImage}
                     alt="office content 1"
                   />{" "}
-                  <div className="absolute z-10 lg:bg-gradient-to-l bg-gradient-to-t from-[#005fc4] from-20% via-15% via-[#005fc4] h-full" />
+                  <div className="absolute z-10 lg:bg-gradient-to-l bg-gradient-to-t from-[var(--primary-color)] from-20% via-15% via-[var(--primary-color)] h-full" />
                 </div>
               </div>
             </div>

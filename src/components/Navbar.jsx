@@ -55,7 +55,7 @@ const Navbar = (props) => {
             <Link
               key={item.name}
               to={item.href}
-              className="sf text-lg font-semibold leading-6 dark:text-[#000000] text-white uppercase navLinks tracking-widest  hover:drop-shadow-[0_0px_30px_#007bc4] transition duration-300 "
+              className="sf text-lg font-semibold leading-6 dark:text-[#000000] text-white uppercase navLinks tracking-widest  hover:drop-shadow-[0_0px_30px_var(--primary-color)] transition duration-300 "
             >
               {item.name}
             </Link>
@@ -63,15 +63,15 @@ const Navbar = (props) => {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
           {/* < as="div" className="relative inline-block text-center"> */}
-            <div>
-              <Link to="https://docs.google.com/document/d/1mqsiPg6BDA0QO3mozxadofpTgXzC8lHTImN9jEdPnkk/edit?usp=sharing" target="_blank" className="sf inline-flex w-full justify-center items-center  gap-x-1.5 rounded-3xl text-white px-3 py-2 text-lg font-semibold shadow-sm border-[2px] border-white hover:bg-gray-50 transition duration-500 hover:text-[#007bc4]">
-                RESULTS
-               
-              </Link>
-            </div>
-
-           
-          
+          <div>
+            <Link
+              to="https://tally.so/r/mR0jeQ"
+              target="_blank"
+              className="sf inline-flex w-full justify-center items-center  gap-x-1.5 rounded-3xl text-white px-3 py-2 text-lg font-semibold shadow-sm border-[2px] border-white hover:bg-gray-50 transition duration-500 hover:text-[var(--primary-color)]"
+            >
+              Team Registration '24
+            </Link>
+          </div>
         </div>
       </nav>
       <Dialog
@@ -86,11 +86,11 @@ const Navbar = (props) => {
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-              className="h-12 w-auto"
-              src="/wartex-logo.webp"
-              //
-              alt="ImageHai"
-            />
+                className="h-12 w-auto"
+                src="/wartex-logo.webp"
+                //
+                alt="ImageHai"
+              />
             </a>
             <button
               type="button"
@@ -117,19 +117,19 @@ const Navbar = (props) => {
               </div>
               <Link
                 onClick={() => setMobileMenuOpen(false)}
-                to="https://docs.google.com/forms/d/e/1FAIpQLSe_ZDnY2EY3hNt-YsaM_Tjm2UDrzQk90EibhZ_yIfkXdSyS5g/viewform"
+                to="https://tally.so/r/mR0jeQ"
                 className="-mx-3 dark:text-black block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white uppercase  text-center hover:bg-gray-50  hover:text-black navLinks "
               >
-                SCHOOL REGISTRATION
+                Team Technocrats '24 Registration (for internal students)
               </Link>
-              <Link
+              {/* <Link
                 onClick={() => setMobileMenuOpen(false)}
                 to="https://docs.google.com/forms/d/e/1FAIpQLSfGaKTV86O3dj7yMYY--sjl4O4UNTAoLJWLfCe9wd3o9dOMyg/viewform"
                 target="_blank"
                 className="-mx-3 dark:text-black block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white uppercase  text-center hover:bg-gray-50  hover:text-black navLinks "
               >
                 INDIVIDUAL REGISTRATION
-              </Link>
+              </Link> */}
               <div className="flex navLinks justify-center py-4 tracking-widest line leading-8 transition ease-in-out duration-[1s]  border-[#fff] rounded-full font-semibold items-center px-8 text-white cursor-pointer  hover:border-white "></div>
             </div>
           </div>

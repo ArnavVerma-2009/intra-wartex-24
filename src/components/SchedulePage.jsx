@@ -8,7 +8,7 @@ export default function SchedulePage() {
       <h1
         data-aos="fade-up"
         data-aos-duration="750"
-        className="text-center drop-shadow-[0_0px_35px_#007bc4] text-[#007bc4] mb-14 text-4xl heading"
+        className="text-center drop-shadow-[0_0px_35px_var(--primary-color)] text-[var(--primary-color)] mb-14 text-4xl heading"
       >
         THE FULL SCHEDULE
       </h1>
