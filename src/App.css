@@ -2,10 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@500&display=swap");
 @font-face {
-  font-family: "coolvetica";
-  src: url(./../src/font/coolvetica\ rg.otf);
-}
-@font-face {
   font-family: "Sf";
   src: url("./../src/font/SF-Pro-Text-Regular.otf");
 }
