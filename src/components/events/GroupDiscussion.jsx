@@ -35,7 +35,8 @@ const GroupDiscussion = () => {
                 Eligibility
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                Class VIII-XII{" "}
+                IX-X (junior) <br />
+                XI-XII (senior){" "}
               </p>
             </div>
 
@@ -44,9 +45,11 @@ const GroupDiscussion = () => {
                 Event-head
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
-                Rishima
+                Mahi Arya
                 <br />
-                Jhanvi Singh
+                Purtika Tuteja
+                <br />
+                Khyati Aggarwal
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
@@ -59,39 +62,29 @@ const GroupDiscussion = () => {
             </div>
           </div>
 
-          <h1 className="text-center text-[#007bc4] mb-14 text-4xl heading">
+          <h1 className="text-center text-[var(--primary-color)] mb-14 text-4xl heading">
             RULES
           </h1>
           <ol className="relative">
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 The topic for the group discussion will be revealed on the day
                 of the event itself.
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                There will be three rounds in total. In each round, they will
-                have 5 minutes to prepare for their given topic.
+                Participants will be given 15 minutes to prepare for the topic.
               </p>
             </li>
             <li className="ml-4 mb-10">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                Each round follows a structured format: first, each participant
-                gets 1 minute for an opening statement. Then, there's a 7-minute
-                group discussion. Finally, the round concludes with 1-minute
-                closing statements from each participant.
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
-              <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Electronic devices can be used for research. However, it's
-                important to note that participants can't simply read from their
-                devices during the discussion.
+                Each participant will prepare in opening statement of 2 minutes,
+                followed by a group discussion of 10 minutes and the round will
+                end with closing statements of 2 minutes each participant.
               </p>
             </li>
           </ol>

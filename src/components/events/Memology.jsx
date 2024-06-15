@@ -42,7 +42,7 @@ const Memeology = () => {
                 Event-head
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
-                Praneel Maitra
+                Arin Gaur
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
@@ -50,45 +50,45 @@ const Memeology = () => {
                 Theme
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                Any Topic
+                Any Topic of choice
               </p>
             </div>
           </div>
 
-          <h1 className="text-center text-[#007bc4] mb-14 text-4xl heading">
+          <h1 className="text-center text-[var(--primary-color)] mb-14 text-4xl heading">
             RULES
           </h1>
           <ol className="relative">
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 Each participant can submit a maximum of three memes in video
                 (mp4) or image (jpg/png) format.
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
                 Plagiarism or the use of pre-existing meme templates (especially
                 in image format) is not allowed.
               </p>
             </li>
             <li className="ml-4 mb-10">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
                 The idea should be original and not copied from any pre-existing
                 video. You must edit or shoot the video yourself.
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 You can use videos and images from the internet with due
                 acknowledgement (sources should be provided in the docs file).
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
                 Examples of video memes or short skits can be found on the
                 YouTube channels of Gus Johnson, Sven Johnson, ProZD, Dolan
@@ -96,7 +96,7 @@ const Memeology = () => {
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
                 The meme should not contain any NSFW elements and should not in
                 any way be overly hurtful or offensive. The meme can be edgy,
@@ -105,16 +105,11 @@ const Memeology = () => {
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Judgment Criteria
-                <br />
-                <br />
-                <ul>
-                  <p className="ml-4">Humour : 4 Marks</p>
-                  <p className="ml-4">Creativity : 4 Marks</p>
-                  <p className="ml-4">Skills used : 2 Marks</p>
-                </ul>
+                The entry has to be submitted at wartexdata@gmail.com before 9th
+                July including the following details- Participant name, Class
+                and Section
               </p>
             </li>
           </ol>

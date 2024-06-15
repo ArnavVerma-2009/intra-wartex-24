@@ -65,11 +65,11 @@ const Navbar = (props) => {
           {/* < as="div" className="relative inline-block text-center"> */}
           <div>
             <Link
-              to="https://tally.so/r/mR0jeQ"
+              to="https://tally.so/r/mVl8gl"
               target="_blank"
               className="sf inline-flex w-full justify-center items-center  gap-x-1.5 rounded-3xl text-white px-3 py-2 text-lg font-semibold shadow-sm border-[2px] border-white hover:bg-gray-50 transition duration-500 hover:text-[var(--primary-color)]"
             >
-              Team Registration '24
+              Register
             </Link>
           </div>
         </div>
@@ -117,10 +117,10 @@ const Navbar = (props) => {
               </div>
               <Link
                 onClick={() => setMobileMenuOpen(false)}
-                to="https://tally.so/r/mR0jeQ"
+                to="https://tally.so/r/mVl8gl"
                 className="-mx-3 dark:text-black block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white uppercase  text-center hover:bg-gray-50  hover:text-black navLinks "
               >
-                Team Technocrats '24 Registration (for internal students)
+                Registration (for internal students)
               </Link>
               {/* <Link
                 onClick={() => setMobileMenuOpen(false)}

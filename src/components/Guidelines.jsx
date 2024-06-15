@@ -21,7 +21,7 @@ export default function Guidelines() {
             data-aos-duration="750"
             className="sf mb-4 text-base font-normal text-gray-300 dark:text-black"
           >
-           One student is permitted to participate in one offline and one online event along with ‘Cryptic hunt’.
+            One student is permitted to participate in one offline along with any no. of online events.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -31,18 +31,19 @@ export default function Guidelines() {
             data-aos-duration="750"
             className="sf text-base font-normal text-gray-300 dark:text-black"
           >
-            
-Participants need to register at: wartex.co.in
+            Participants need to register at: wartex.co.in
           </p>
         </li>
-        <li className="ml-4 mb-10">
+    
+        <li className="mb-10 ml-4">
           <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
           <p
             data-aos="fade-up"
             data-aos-duration="750"
             className="sf text-base font-normal text-gray-300 dark:text-black"
           >
-           The school will not take responsibility for the loss of any appliances brought in by the participants.
+            Date of prelims for every hybrid event is mentioned along with the
+            rules of that event.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -52,8 +53,8 @@ Participants need to register at: wartex.co.in
             data-aos-duration="750"
             className="sf mb-4 text-base font-normal text-gray-300 dark:text-black"
           >
-            
-Last date of submission for online events is 23rd  October till midnight.
+            All offline events will be conducted in the SRDAV Public School
+            premises on 11 JULY, 2024.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -63,8 +64,8 @@ Last date of submission for online events is 23rd  October till midnight.
             data-aos-duration="750"
             className="sf text-base font-normal text-gray-300 dark:text-black"
           >
-            
-Date of prelims for every hybrid event is mentioned along with the rules of that event.
+            Participants who are found to have used any sort of unfair means
+            will be disqualified from participating.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -74,7 +75,9 @@ Date of prelims for every hybrid event is mentioned along with the rules of that
             data-aos-duration="750"
             className="sf mb-4 text-base font-normal text-gray-300 dark:text-black"
           >
-           All offline events will be conducted in the SRDAV Public School premises on XX JULY, 2024.
+            For all the information, announcements and updates, follow our
+            Instagram page , join our Discord Server and WhatsApp community
+            group.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -84,7 +87,7 @@ Date of prelims for every hybrid event is mentioned along with the rules of that
             data-aos-duration="750"
             className="sf text-base font-normal text-gray-300 dark:text-black"
           >
-            Participants who are found to have used any sort of unfair means will be disqualified from participating.
+            Late comers will not be entertained.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -94,31 +97,10 @@ Date of prelims for every hybrid event is mentioned along with the rules of that
             data-aos-duration="750"
             className="sf mb-4 text-base font-normal text-gray-300 dark:text-black"
           >
-            For all the information, announcements and updates, follow our Instagram page , join our Discord Server and WhatsApp community group.
+            Opening ceremony will take place on the school stage from 8:00 AM to
+            8:30 AM, the events will commence from 8:30 AM.
           </p>
         </li>
-        <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
-          <p
-            data-aos="fade-up"
-            data-aos-duration="750"
-            className="sf text-base font-normal text-gray-300 dark:text-black"
-          >
-           Participants need to report in the school premises before 9:00 AM. Late comers will not be entertained.
-          </p>
-        </li>
-        <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 drop-shadow-[0_0px_20px_var(--primary-color)] bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
-          <p
-            data-aos="fade-up"
-            data-aos-duration="750"
-            className="sf mb-4 text-base font-normal text-gray-300 dark:text-black"
-          >
-            Opening ceremony will take place on the school stage from 9:00 AM to 9:30 AM, the events will commence from 9:30 AM.
-
-          </p>
-        </li>
-       
       </ol>
     </div>
   );

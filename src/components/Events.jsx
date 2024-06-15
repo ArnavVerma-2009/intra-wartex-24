@@ -22,7 +22,7 @@ import Memeology from "./../assets/eventThumbnails/Memeology.jpg";
 import Dexterity from "./../assets/eventThumbnails/Dexterity.webp";
 import Ragnarok from "./../assets/eventThumbnails/Ragnarok.webp";
 import AsimovWars from "./../assets/eventThumbnails/AsimovWars.webp";
-import Typestry from "./../assets/eventThumbnails/Typestry.webp";
+import Chess from "./../assets/eventThumbnails/Chess.png";
 
 
 
@@ -33,7 +33,7 @@ const Events = ( color) => {
     {
       Name: "Cryptic Hunt",
       id: 1,
-      href: "https://cryptichunt.wartex.co.in",
+      href: "/Events/CrypticHunt",
       imageLink: `${CrypticHunt}`,
     },
     {
@@ -86,10 +86,10 @@ const Events = ( color) => {
       imageLink: `${BrainWars}`,
     },
     {
-      Name: "Typing Monkey",
+      Name: "Chess",
       id: 16,
-      href: "/Events/Typestry",
-      imageLink: `${Typestry}`,
+      href: "/Events/Chess",
+      imageLink: `${Chess}`,
     },
 
     {
@@ -120,12 +120,12 @@ const Events = ( color) => {
       imageLink: `${Dexterity}`,
     },
 
-    {
-      Name: "Asimov Wars",
-      id: 15,
-      href: "/Events/AsimovWars",
-      imageLink: `${AsimovWars}`,
-    },
+    // {
+    //   Name: "Asimov Wars",
+    //   id: 15,
+    //   href: "/Events/AsimovWars",
+    //   imageLink: `${AsimovWars}`,
+    // },
     {
       Name: "Equinox",
       id: 7,

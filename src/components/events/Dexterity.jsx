@@ -14,9 +14,7 @@ const Dexterity = () => {
               >
                 DEXTERITY
               </h1>
-              <p className="mt-6 text-white">
-                POSTER MAKING USING ARTIFICIAL INTELLIGENCE
-              </p>
+              <p className="mt-6 text-white">POSTER MAKING</p>
             </div>
 
             <div className="flex justify-center mt-10">
@@ -45,8 +43,6 @@ const Dexterity = () => {
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
                 Abhinav Mishra
-                <br />{" "}
-                Yash Mehra
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
@@ -59,33 +55,32 @@ const Dexterity = () => {
             </div>
           </div>
 
-          <h1 className="text-center text-[#007bc4] mb-14 text-4xl heading">
+          <h1 className="text-center text-[var(--primary-color)] mb-14 text-4xl heading">
             RULES
           </h1>
           <ol className="relative">
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Participants can create any movie poster from any time and
-                place. Use AIs in building your poster like Midjourney, Dall-E,
-                Blue Willow etc.
+                You must create a captivating poster using softwares such as
+                Adobe Photoshop, Adobe Illustrator etc.
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Mention the used AI and the editing software used while
-                submitting the entry.
+                Topics can range from Movies to Posters on album covers by
+                musical artists etc
               </p>
             </li>
             <li className="ml-4 mb-10">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-              Do not use any NSFW elements & hate imagery in the poster.
+                Do not use any NSFW elements & hate imagery in the poster.
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 Do not use any NSFW elements & hate imagery in the poster
                 Acceptable image formats are PNG, JPEG and JPG. The image file
@@ -93,14 +88,14 @@ const Dexterity = () => {
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                The last date of submission of entries is 23rd October, 2023 at
+                The last date of submission of entries is 8th July, 2024 at
                 wartexdata@gmail.com.
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
                 The entry has to submitted at wartexdata@gmail.com before 10th
                 july with following details:
@@ -112,7 +107,7 @@ const Dexterity = () => {
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
                 Judgement Criteria :-
                 <ul class="list-outside list-disc ml-6">

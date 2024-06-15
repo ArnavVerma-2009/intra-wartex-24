@@ -37,7 +37,7 @@ export default function Example() {
       <h1 className="sf text-center drop-shadow-[0_0px_35px_var(--primary-color)] text-[var(--primary-color)] mb-14 text-4xl heading">
         FREQUENTLY ASKED QUES
       </h1>
-      <Fragment >
+      <Fragment>
         <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
           <AccordionHeader
             data-aos="fade-up"
@@ -51,10 +51,10 @@ export default function Example() {
             style={{ fontFamily: "sf", transition: "all 500ms" }}
             className="text-white dark:text-black text-[15px] font-black"
           >
-            Wartex is one of the most highly anticipated school tech event in Delhi. This
-            event regularly attracts a diverse range of attendees from almost
-            all schools of delhi NCR, across different classes; and offers an
-            enthralling experience to last the whole year.
+            Wartex is one of the most highly anticipated school tech event in
+            Delhi. This event regularly attracts a diverse range of attendees
+            from almost all schools of delhi NCR, across different classes; and
+            offers an enthralling experience to last the whole year.
           </AccordionBody>
         </Accordion>
         <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
@@ -70,10 +70,7 @@ export default function Example() {
             style={{ fontFamily: "sf", transition: "all 500ms" }}
             className=" text-white dark:text-black text-[15px] font-black"
           >
-            You can register through the link given on the website, the link is
-            also present in the discord server. However, if your school is not
-            registering, you can still register individually in cryptic hunt ONLY .
-
+            You can register through the link given on the website.
           </AccordionBody>
         </Accordion>
         <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
@@ -89,8 +86,9 @@ export default function Example() {
             style={{ fontFamily: "sf", transition: "all 500ms" }}
             className="text-white dark:text-black text-[15px] font-black"
           >
-            Any student currently going to school in Delhi NCR can participate
-            in Wartex according to their class and event's criteria.
+            Any student currently going to S.R.D.A.V public school, Dayanand
+            Vihar can participate in Wartex according to their class and event's
+            criteria.
           </AccordionBody>
         </Accordion>
         <Accordion open={open === 4} icon={<Icon id={4} open={open} />}>
@@ -106,10 +104,10 @@ export default function Example() {
             style={{ fontFamily: "sf", transition: "all 500ms" }}
             className="text-white dark:text-black text-[15px] font-black"
           >
-            The event will take place on 26 October, 2023.
+            The event will take place on 11 July, 2024.
           </AccordionBody>
         </Accordion>
-        <Accordion open={open === 5} icon={<Icon id={5} open={open} />}>
+        {/* <Accordion open={open === 5} icon={<Icon id={5} open={open} />}>
           <AccordionHeader
             style={{ fontFamily: "akira", transition: "all 500ms" }}
             data-aos="fade-up"
@@ -126,7 +124,7 @@ export default function Example() {
             updates regarding the events, the raw files for event like rework
             render will be given on Discord only.
           </AccordionBody>
-        </Accordion>
+        </Accordion> */}
       </Fragment>
     </div>
   );

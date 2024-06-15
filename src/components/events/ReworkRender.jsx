@@ -33,7 +33,8 @@ const ReworkRender = () => {
                 Eligibility
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                Class VI-XII{" "}
+                VI-VIII (junior) <br />
+                IX-XII (senior){" "}
               </p>
             </div>
 
@@ -42,7 +43,7 @@ const ReworkRender = () => {
                 Event-head
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
-                OJAS AGGARWAL <br />{" "}
+                Swastik Verma <br /> Arnav Verma{" "}
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
@@ -55,45 +56,48 @@ const ReworkRender = () => {
             </div>
           </div>
 
-          <h1 className="text-center text-[#007bc4] mb-14 text-4xl heading">
+          <h1 className="text-center text-[var(--primary-color)] mb-14 text-4xl heading">
             RULES
           </h1>
           <ol className="relative">
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 Participants need to edit and produce a video on the given raw
                 footage.
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Raw footage will be provided to the participants on wartex
-                discord server and wartex community group.
+                Raw footage will be provided to the participants on wartex community group.
               </p>
             </li>
             <li className="ml-4 mb-10">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
                 Participants may use any software for editing.{" "}
               </p>
             </li>
+            <li className="ml-4 mb-10">
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
+              <p className="text-base font-normal text-gray-300 dark:text-gray-300">
+Use of pre made templates is not allowed              </p>
+            </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 Time limit for the video is 90 seconds (Minimum 60 seconds) .
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
                 a google drive and link shall be sent to wartexdata@gmail.com
-                with the necessary details by 23 October, 2023. Details to be
+                with the necessary details by 10th July, 2024. Details to be
                 mentioned in the mail -
                 <ul class="list-outside list-disc ml-6">
                   <li>Your Name </li>
-                  <li>School Name</li>
                   <li> Class </li>
                   <li>Software/app used </li>
                  
@@ -101,7 +105,7 @@ const ReworkRender = () => {
               </p>
             </li>{" "}
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 Judgement Criteria <br /> Sequence of clips <br /> Originality & Creativity
                  <br />Sound Effects& Transitions <br /> Color Grading

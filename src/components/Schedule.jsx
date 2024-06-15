@@ -37,14 +37,14 @@ export default function Schedule() {
             data-aos-duration="750"
             className="sf mb-1 text-sm font-normal leading-none text-gray-400  dark:text-black"
           >
-            XX JULY
+            11 JULY
           </h3>
           <p
             data-aos="fade-up"
             data-aos-duration="750"
             className="sf mb-4 text-base font-normal text-gray-300  dark:text-black"
           >
-            All schools must report before 9:00AM. The opening ceremony will take place from 9:00AM to 9:30AM.
+          The opening ceremony will take place from 8:00AM.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -61,7 +61,7 @@ export default function Schedule() {
             data-aos-duration="750"
             className="sf mb-1 text-sm font-normal leading-none text-gray-400  dark:text-black"
           >
-            9:30AM to 2:00PM{" "}
+            8:30AM to 1:30PM{" "}
           </h3>
 
           <p
@@ -70,7 +70,7 @@ export default function Schedule() {
             className="sf text-base font-normal text-gray-300  dark:text-black"
           >
             All the event heads will lead the participants to their respective
-            events. All the events would come to an end by 2:00PM.
+            events. All the events would come to an end by 1:30PM.
           </p>
         </li>
         <li className="ml-4">
@@ -80,14 +80,14 @@ export default function Schedule() {
             data-aos-duration="750"
             className="text-lg font-semibold text-gray-300 dark:text-black"
           >
-            THE CHAMPIONS ARE ANNOUNCED
+          THE CHAMPIONS ARE ANNOUNCED
           </h2>
           <h3
             data-aos="fade-up"
             data-aos-duration="750"
             className="sf mb-1 text-sm font-normal leading-none text-gray-400  dark:text-black"
           >
-            2:15PM
+            
           </h3>
 
           <p
@@ -95,8 +95,7 @@ export default function Schedule() {
             data-aos-duration="750"
             className="sf text-base font-normal text-gray-300  dark:text-black"
           >
-            The valedictory ceremony will take place and the winners of the
-            events will be announced.
+            The valedictory ceremony will take place on a later day after the results are compiled and medals and certificates will be awarded to the champions
           </p>
         </li>
       </ol>

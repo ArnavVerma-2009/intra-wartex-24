@@ -43,7 +43,7 @@ const GameAThon = () => {
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
                 Misha Mudgal <br />
-                Shreya Saxena
+                Medha Malhotra
               </p>
             </div>
             <div className=" block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
@@ -51,17 +51,18 @@ const GameAThon = () => {
                 Theme
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                Space & Technology
+                Health Is Wealth <br />
+                Love for Wildlife <br /> Technology And Development
               </p>
             </div>
           </div>
 
-          <h1 className="text-center text-[#007bc4] mb-14 text-4xl heading">
+          <h1 className="text-center text-[var(--primary-color)] mb-14 text-4xl heading">
             RULES
           </h1>
           <ol className="relative">
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 Each team consists of two participants who will collaborate to
                 create a game from scratch All games must be based on the theme
@@ -69,21 +70,21 @@ const GameAThon = () => {
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
                 Participants are not allowed to use the internet or any online
                 resources during the competition.
               </p>
             </li>
             <li className="ml-4 mb-10">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
                 Teams can choose to create either a game or a story, but it must
                 align with the provided theme.
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 Each team must prepare a concise 5minute presentation to explain
                 and showcase their creation to the judges.
@@ -91,7 +92,7 @@ const GameAThon = () => {
             </li>
 
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
                 Judgment Criteria
                 <br />

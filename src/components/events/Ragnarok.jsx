@@ -33,7 +33,7 @@ const Ragnarok = () => {
                 Eligibility
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                Class VIII-XII{" "}
+                Class IX-XII{" "}
               </p>
             </div>
 
@@ -42,9 +42,9 @@ const Ragnarok = () => {
                 Event-head
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
-                Agrim Gupta
+                Sanchay Gupta
                 <br />
-                Pratham Dhyani
+                Vishay Gupta
                 <br />
                 Kanishk Kandpal
               </p>
@@ -54,79 +54,68 @@ const Ragnarok = () => {
                 Team
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                4 members
+                1 members
               </p>
             </div>
           </div>
 
-          <h1 className="text-center text-[#007bc4] mb-14 text-4xl heading">
+          <h1 className="text-center text-[var(--primary-color)] mb-14 text-4xl heading">
             RULES
           </h1>
           <ol className="relative">
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 Ragnarok is a 2-day event.
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                The prelims for ragnarok will be held on 22 October (online).
+                Prelims will take place online on Discord. Date, Timings & game
+                mode will be announced on the Discord server.
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Prelims will take place online on Discord. Date, Timings & game
-                mode will be announced on the Discord server
+                The game for Round 1 will be announced on the Discord Server.
+                Rules regarding the same will be shared soon in the Discord
+                server only.
               </p>
             </li>
             <li className="ml-4 mb-10">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                The game for Round 1 is Rocket League.
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
-              <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 The winners of Round 1 will be announced on the Discord Server,
-                who will appear for Round 2 Rounds 2 and 3 will be held offline
-                on the school premises on 26 October.
+                who will appear for Round 2.
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
+              <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
+                Round 2 will be held offline in the school premises. Details
+                regarding the same will be shared with the qualifiers of Round 1
+                through Discord only.
+              </p>
+            </li>
+            <li className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
                 Details regarding the same will be shared with the qualifiers of
                 Round 1 through Discord only.
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                Only team-based participation is permitted. No solo players are
-                allowed in the competition.
+                The use of cheats, hacks, or any other third-party applications
+                that give an unfair advantage to the partic pants over their
+                opponents will result in immedediate disqualification
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 ">
-                Details regarding Round 2 will be announced on the Discord
-                server after Round 1
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 ">
-                The use of cheats, hacks, or any other thirdparty applications
-                that give an unfair advantage to the participants over their
-                opponents will result in immediate disqualification.
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
                 Participants must use an acceptable username in the tournament.
                 If they fail to do so, the administration reserves the right to

@@ -33,7 +33,7 @@ const BrainWars = () => {
                 Eligibility
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                Class X-XII{" "}
+                Class IX-XII{" "}
               </p>
             </div>
 
@@ -42,7 +42,7 @@ const BrainWars = () => {
                 Event-head
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
-                Parth Aggarwal
+                Arin Gaur
                 <br />
                 Jai Vikramaditya Raghav
               </p>
@@ -56,28 +56,28 @@ const BrainWars = () => {
               </p>
             </div>
           </div>
-          <h1 className="text-center text-[#007bc4] mb-14 text-4xl heading">
+          <h1 className="text-center text-[var(--primary-color)] mb-14 text-4xl heading">
             RULES
           </h1>
           <ol className="relative">
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Round I- BIG BANG THEORY Questionnaire
+                Round I- POP CULTURE PROWESS
                 <br />
-                Round II- SCHRODINGER'S CAT Buzzer Round
+                Round II- TECH TREK
                 <br />
-                Round III- QUANTUM ENTAGNLEMENT
+                Round III- COSMIC CHRONICLES
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
                 Surprise Rules to be revealed on the day itself.
               </p>
             </li>
             <li className="ml-4 mb-10">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
                 The quiz will be based on general topics, that may include
                 questions related to IT, Tech, Space tech, Business, etc. along
@@ -85,7 +85,7 @@ const BrainWars = () => {
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 A good preparation tip would be to stay up to date on Quiz
                 material, comic books, internet pop culture, popular IMDB

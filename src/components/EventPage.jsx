@@ -16,7 +16,7 @@ import Memeology from "./../assets/eventThumbnails/MemeologyEventPage.webp";
 import Dexterity from "./../assets/eventThumbnails/Dexterity.webp";
 import Ragnarok from "./../assets/eventThumbnails/Ragnarok.webp";
 import AsimovWars from "./../assets/eventThumbnails/AsimovWars.jpg";
-import Typestry from "./../assets/eventThumbnails/Typestry.webp";
+import Chess from "./../assets/eventThumbnails/Chess.png";
 import Transition from "../transition";
 import { Link } from "react-router-dom";
 
@@ -28,7 +28,7 @@ const EventPage = () => {
     {
       Name: "Cryptic Hunt",
       id: 1,
-      href: "https://cryptichunt.wartex.co.in",
+      href: "/Events/CrypticHunt",
       imageLink: `${CrypticHunt}`,
     },
     {
@@ -81,10 +81,10 @@ const EventPage = () => {
       imageLink: `${BrainWars}`,
     },
     {
-      Name: "Typing Monkey",
+      Name: "Chess",
       id: 16,
-      href: "/Events/Typestry",
-      imageLink: `${Typestry}`,
+      href: "/Events/Chess",
+      imageLink: `${Chess}`,
     },
 
     {
@@ -115,12 +115,12 @@ const EventPage = () => {
       imageLink: `${Dexterity}`,
     },
 
-    {
-      Name: "Asimov Wars",
-      id: 15,
-      href: "/Events/AsimovWars",
-      imageLink: `${AsimovWars}`,
-    },
+    // {
+    //   Name: "Asimov Wars",
+    //   id: 15,
+    //   href: "/Events/AsimovWars",
+    //   imageLink: `${AsimovWars}`,
+    // },
     {
       Name: "Equinox",
       id: 7,
@@ -171,15 +171,7 @@ const EventPage = () => {
                     >
                       <div className="screen-overlay"></div>
 
-                      {/* <div className="relative flex flex-row  h-full text-white items-end bg-[#00000051] ">
-                      <p className="text-justify contentEventCard p-4 sm:p-5 lg:p-7 ">
-                        aspernatur rem eveniet! Ullam aliquid, dicta corrupti ut
-                        tenetur quibusdam odit tempore, iure quo voluptatum
-                        ducimus alias. Eligendi deserunt, voluptatum incidunt
-                        quidem nihil iste totam numquam praesentium ullam minus
-                        in similique rem veritatis?
-                      </p>
-                    </div> */}
+                
                     </Link>
                   </div>
                 ))}

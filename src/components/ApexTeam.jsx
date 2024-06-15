@@ -12,13 +12,13 @@ import JhanviSingh from "./../assets/TeamMembers/JhanviSingh.webp";
 import JaishreeSharma from "./../assets/TeamMembers/JaishreeSharma.webp";
 import SwastikVerma from "./../assets/TeamMembers/SwastikVerma.webp";
 import SiddhiMalhotra from "./../assets/TeamMembers/SiddhiMalhotra.webp";
-
+import Placeholder from './../assets/TeamMembers/placeholder.avif'
 AOS.init();
 
 const TeamMetaData = [
   {
     id: 1,
-    Name: "SWASTIK VERMA",
+    Name: "Swastik Vermma",
     Image: `${SwastikVerma}`,
     Designation: "President",
     InstaLink: "https://www.instagram.com/thedelhibro",
@@ -26,96 +26,96 @@ const TeamMetaData = [
   },
   {
     id: 2,
-    Name: "GAURAV KUMAR",
+    Name: "Gaurav Kumar",
     Image: `${GauravKumar}`,
     Designation: "Vice President",
     InstaLink: "https://www.instagram.com/thedelhibro",
     delay: 2400,
   },
 
-  // {
-  //   id: 4,
-  //   Name: "RISHIMA JHAMB",
-  //   Image: `${RishimaJhamb}`,
-  //   Designation: "Executive",
-  //   InstaLink: "",
-  //   delay: 2800,
-  // },
-  // {
-  //   id: 3,
-  //   Name: "OJAS AGGARWAL",
-  //   Image: `${OjasAggarwal}`,
-  //   Designation: "VFX Head &  Coordinator",
-  //   InstaLink: "",
-  //   delay: 2800,
-  // },
-  // {
-  //   id: 5,
-  //   Name: "NIPUN SINGHAL",
-  //   Image: `${NipunSinghal}`,
-  //   Designation: "Coordinator",
-  //   InstaLink: "",
-  //   delay: 2400,
-  // },
-  // {
-  //   id: 6,
-  //   Name: "ARNAV VERMA",
-  //   Image: `${ArnavVerma}`,
-  //   Designation: "website developer",
-  //   InstaLink: "",
-  //   delay: 2000,
-  // },
-  // {
-  //   id: 7,
-  //   Name: "ADVIK AGGARWAL",
-  //   Image: `${AdvikAggarwal}`,
-  //   Designation: "Website Developer",
-  //   InstaLink: "",
-  //   delay: 2000,
-  // },
+  {
+    id: 3,
+    Name: "Jai Vikramaditya",
+    Image: `${Placeholder}`,
+    Designation: "Executive",
+    InstaLink: "",
+    delay: 2800,
+  },
+  {
+    id: 4,
+    Name: "Arnav verma",
+    Image: `${ArnavVerma}`,
+    Designation: "Event Director",
+    InstaLink: "",
+    delay: 2800,
+  },
+  {
+    id: 5,
+    Name: "Mayank satija",
+    Image: `${Placeholder}`,
+    Designation: "Event Director",
+    InstaLink: "",
+    delay: 2400,
+  },
+  {
+    id: 6,
+    Name: "Advik Aggarwal",
+    Image: `${AdvikAggarwal}`,
+    Designation: "Operation Managaer",
+    InstaLink: "",
+    delay: 2000,
+  },
+  {
+    id: 7,
+    Name: "Shreya Saxena",
+    Image: `${Placeholder}`,
+    Designation: "Operation Manager",
+    InstaLink: "",
+    delay: 2000,
+  },
 
-  // {
-  //   id: 10,
-  //   Name: "GAURAV KUMAR",
-  //   Image: `${GauravKumar}`,
-  //   Designation: "Operations Manager",
-  //   InstaLink: "",
-  //   delay: 2800,
-  // },
+  {
+    id: 10,
+    Name: "Abhinav Mishra",
+    Image: `${Placeholder}`,
+    Designation: "GFX head & Organising head",
+    InstaLink: "",
+    delay: 2800,
+  },
 
-  // {
-  //   id: 11,
-  //   Name: "SWASTIK VERMA",
-  //   Image: `${SwastikVerma}`,
-  //   Designation: "Organising Head",
-  //   InstaLink: "",
-  //   delay: 2400,
-  // },
-  // {
-  //   id: 12,
-  //   Name: "SIDDHI MALHOTRA",
-  //   Image: `${SiddhiMalhotra}`,
-  //   Designation: "Photography head",
-  //   InstaLink: "",
-  //   delay: 2000,
-  // },
-  // {
-  //   id: 8,
-  //   Name: "JAISHREE SHARMA",
-  //   Image: `${JaishreeSharma}`,
-  //   Designation: "Literary Head",
-  //   InstaLink: "",
-  //   delay: 2400,
-  // },
+  {
+    id: 11,
+    Name: "Siddhi Malhotra",
+    Image: `${SiddhiMalhotra}`,
+    Designation: "Photography head",
+    InstaLink: "",
+    delay: 2400,
+  },
+  {
+    id: 12,
+    Name: "Mahi Arya",
+    Image: `${Placeholder}`,
+    Designation: "Literary Team",
+    InstaLink: "",
+    delay: 2000,
+  },
+  {
+    id: 8,
+    Name: "Purtika Tuteja",
+    Image: `${Placeholder}`,
+    Designation: "Literary Team",
+    InstaLink: "",
+    delay: 2400,
+  },
 
-  // {
-  //   id: 9,
-  //   Name: "JHANVI SINGH",
-  //   Image: `${JhanviSingh}`,
-  //   Designation: "Literary Head",
-  //   InstaLink: "",
-  //   delay: 2800,
-  // },
+  {
+    id: 9,
+    Name: "Khyati Aggarwal",
+    Image: `${Placeholder}`,
+    Designation: "Literary Team",
+    InstaLink: "",
+    delay: 2800,
+  },
 ];
 
 export const ApexTeam = () => {
@@ -142,7 +142,7 @@ export const ApexTeam = () => {
           </div>
           <div className="flex w-full justify-center">
             <div className="container relative px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 xl:mt-16 md:grid-cols-3 xl:grid-cols-3">
                 {TeamMetaData.map((data) => (
                   <div key={data.id}>
                     <div

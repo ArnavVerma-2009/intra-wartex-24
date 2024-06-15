@@ -23,23 +23,22 @@ const cardData = [
   },
   {
     email: "| thedelhibro@gmail.com",
-    phoneNum: "+91 9891194178",
-    Name: "Yash Mehra",
+    phoneNum: "+91 9716054013",
+    Name: "Swastik Verma",
     Post: "President",
   },
   {
     email: "| riddhigoyal86@gmail.com",
-    phoneNum: "+91 9911066644",
-    Name: "Riddhi Goyal",
+    phoneNum: "+91 8920477482",
+    Name: "Gaurav kumar",
     Post: "Vice President",
   },
   {
     email: "| riddhigoyal86@gmail.com",
-    phoneNum: "+91 7678408680",
-    Name: "Rishima Jhamb",
-    Post: "Co-Ordinator",
+    phoneNum: "+91 7011432921",
+    Name: "Mayank Satija",
+    Post: "Executive",
   },
-
 ];
 const Contact = () => {
   const form = useRef();

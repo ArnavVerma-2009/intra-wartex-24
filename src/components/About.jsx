@@ -61,14 +61,14 @@ const About = () => {
             onExit={() => setCounterOn(false)}
           >
             <div className=" text-white px-4 py-16 mb-20 mx-auto w-full md:px-24 lg:px-8 lg:py-20">
-              <div className="grid gap-24 sm:gap-0 sm:mt-20 sm:grid-cols-2">
+              <div className="grid gap-24 sm:gap-0 w-full sm:mt-20 sm:grid-cols-2">
                 <div className="text-center">
                   <h6 className="text-5xl font-bold text-deep-purple-accent-400">
                     {counterOn && (
                       <CountUp
                         className="akira"
                         start={0}
-                        end={850}
+                        end={450}
                         duration={3}
                         delay={0}
                       ></CountUp>
@@ -83,14 +83,15 @@ const About = () => {
                       <CountUp
                         className="akira"
                         start={0}
-                        end={55}
+                        end={6}
                         duration={3}
                         delay={0}
                       ></CountUp>
-                    )}{" "}
+                    )}{"+"}
                   </h6>
-                  <p className="font-bold akira">Schools</p>
+                  <p className="font-bold akira">Standards</p>
                 </div>
+              
               </div>
               <h1 className="akira text-center text-3xl sm:text-5xl font-bold mt-20">
                 1 MEGA COMPETITION

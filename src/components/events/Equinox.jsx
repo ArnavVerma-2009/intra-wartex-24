@@ -17,7 +17,7 @@ const Equinox = () => {
                 EQUINOX
               </h1>
               <p className="mt-6 text-white">
-                HACKATHON [Language to be used ONLY Python]
+                Website development
               </p>
             </div>
 
@@ -37,7 +37,7 @@ const Equinox = () => {
                 Eligibility
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                Class IX-XII{" "}
+                Class VII-XII{" "}
               </p>
             </div>
 
@@ -48,7 +48,7 @@ const Equinox = () => {
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
                 Garvit Singh Negi   
                 <br />
-                Nipun Singhal
+                Arnav Verma
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
@@ -56,64 +56,19 @@ const Equinox = () => {
                 Theme
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
-                Artificial Intelligence
+                To be revealed on event day
               </p>
             </div>
           </div>
 
-          <h1 className="text-center text-[#007bc4] mb-14 text-4xl heading">
+          <h1 className="text-center text-[var(--primary-color)] mb-14 text-4xl heading">
             RULES
           </h1>
           <ol className="relative">
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Participants will receive challenge questions on the spot, which
-                will have to be completed in the given time frame.
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 ">
-                All participants are expected to maintain a high standard of
-                integrity, honesty, and respect throughout the hackathon.
-              </p>
-            </li>
-            <li className="ml-4 mb-10">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                Plagiarism will result in immediate disqualification.
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
-              <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Organizers may review code at any time during the event to
-                ensure compliance with the rules.
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 ">
-                Participants need to bring their own devices for the event.
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 ">
-                Participants found violating any rules or engaging in unethical
-                behavior, will be disqualified from the hackathon.
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 ">
-                Judgement Criteria <br />
-                Code Quality <br />
-                Correctnes <br />
-                Documentation and Comment <br />
-                Code Optimisation Participants need to bring their own devices
-                for the event.
+               Detailed rules are mentioned in the brochure. 
               </p>
             </li>
           </ol>

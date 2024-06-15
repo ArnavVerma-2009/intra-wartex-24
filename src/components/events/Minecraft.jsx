@@ -43,9 +43,11 @@ const Minecraft = () => {
                 Event-head
               </h5>
               <p className="  font-normal text-gray-700 dark:text-gray-400 text-center">
-                Priyanshu Kapoor
+                Diya Aggarwal
                 <br />
-                Rishabh Jain
+                Ragahav Gaur
+                <br />
+                Akshit Parag
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
@@ -58,56 +60,17 @@ const Minecraft = () => {
             </div>
           </div>
 
-          <h1 className="text-center text-[#007bc4] mb-14 text-4xl heading">
+          <h1 className="text-center text-[var(--primary-color)] mb-14 text-4xl heading">
             RULES
           </h1>
           <ol className="relative">
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
+              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                It will be a multiple-round event Round one, the Hunger Games
-                will be conducted online, and the players will be selected
-                according to their performance in the first round
+                It will be a multiple-round event , Detailed instructions about the event are given in the brochure.
               </p>
             </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 ">
-                All updates and details will be announced on the WhatsApp group
-                and Minecraft channel of the Wartex Discord server
-              </p>
-            </li>
-            <li className="ml-4 mb-10">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                Round 2 and 3 will be held on 26 October, in offline mode in the
-                school premises{" "}
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5   "></div>
-              <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Using third-party apps or auto-clickers will result in an
-                immediate ban and disqualification.
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 ">
-                Register before 20/10/2023 at wartex.co.in.
-              </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[#007bc4] rounded-full mt-1.5 -left-1.5  "></div>
-              <p className="text-base font-normal text-gray-300 ">
-                All updates and details will be announced on the WhatsApp group
-                and Minecraft channel of the Wartex discord server, join our
-                Discord server by clicking on the link below:{" "}
-                <Link to="https://discord.gg/WTpx4uJhSg">
-                  https://discord.gg/WTpx4uJhSg
-                </Link>
-              </p>
-            </li>
+      
           </ol>
         </div>
       </div>

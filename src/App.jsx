@@ -37,19 +37,17 @@ import Dexterity from "./components/events/Dexterity";
 import Aperture from "./components/events/Aperture";
 import Ragnarok from "./components/events/Ragnarok";
 import AsimovWars from "./components/events/AsimovWars";
-import TeamPage from "./components/TeamPage";
 import EventPage from "./components/eventPage";
-import TypingMonkey from "./components/events/TypingMonkey";
 import SchedulePage from "./components/SchedulePage";
-import transition from "./transition";
-import Video from "./components/Video";
 
-
+import Lenis from "@studio-freight/lenis";
+import CrypticHunt from "./components/events/CrypticHunt";
+import Chess from "./components/events/Chess";
 
 
 // Scroll to top function
 
-function scrollToTop() {
+export function scrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -58,6 +56,25 @@ function scrollToTop() {
 }
 
 function App() {
+
+  const lenis = new Lenis({
+    duration: 1, 
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    direction: "vertical",
+    gestureDirection: "vertical", 
+    smooth: true,
+    mouseMultiplier: 0.5,
+    smoothTouch: false,
+    touchMultiplier: 2, 
+    infinite: false, 
+  });
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
   return (
     <>
       <AnimatePresence  mode="wait">
@@ -132,6 +149,7 @@ function App() {
               </>
             }
           />
+
           <Route
             path="/Events"
             element={
@@ -299,10 +317,18 @@ function App() {
             }
           />
           <Route
-            path="/Events/Typestry"
+            path="/Events/Chess"
             element={
               <>
-                <TypingMonkey />
+                <Chess />
+              </>
+            }
+          />
+          <Route
+            path="/Events/CrypticHunt"
+            element={
+              <>
+                <CrypticHunt />
               </>
             }
           />
