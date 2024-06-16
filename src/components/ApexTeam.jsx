@@ -95,7 +95,7 @@ const TeamMetaData = [
     id: 12,
     Name: "Mahi Arya",
     Image: `${Placeholder}`,
-    Designation: "Literary Team",
+    Designation: "Literary Heads",
     InstaLink: "",
     delay: 2000,
   },
@@ -103,7 +103,7 @@ const TeamMetaData = [
     id: 8,
     Name: "Purtika Tuteja",
     Image: `${Placeholder}`,
-    Designation: "Literary Team",
+    Designation: "Literary Heads",
     InstaLink: "",
     delay: 2400,
   },
@@ -112,7 +112,7 @@ const TeamMetaData = [
     id: 9,
     Name: "Khyati Aggarwal",
     Image: `${Placeholder}`,
-    Designation: "Literary Team",
+    Designation: "Literary Heads",
     InstaLink: "",
     delay: 2800,
   },
@@ -136,7 +136,7 @@ export const ApexTeam = () => {
                 className="mb-14 text-sm text-white dark:text-black text-center font-semibold uppercase tracking-px"
                 data-aos="fade-up"
               >
-                THE TEAM MEMBERS
+                THE TECHNOCRATS
               </p>
             </div>
           </div>

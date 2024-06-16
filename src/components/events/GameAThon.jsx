@@ -65,7 +65,7 @@ const GameAThon = () => {
               <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 Each team consists of two participants who will collaborate to
-                create a game from scratch All games must be based on the theme
+                create a game from scratch. All games must be based on the theme
                 provided.
               </p>
             </li>
@@ -86,7 +86,7 @@ const GameAThon = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Each team must prepare a concise 5minute presentation to explain
+                Each team must prepare a concise 5 minute presentation to explain
                 and showcase their creation to the judges.
               </p>
             </li>

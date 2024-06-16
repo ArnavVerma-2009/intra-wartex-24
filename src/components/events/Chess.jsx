@@ -12,15 +12,15 @@ const Chess = () => {
                 className="text-[28px] font-semibold text-white lg:text-[43px] mt-12 sm:mt-0"
                 style={{ fontFamily: "akira" }}
               >
-                TYPESTRY
+                CHESS
               </h1>
-              <p className="mt-6 text-white">TYPING SPEED COMPETITION</p>
+              <p className="mt-6 text-white">CHESS GAME COMPETITION</p>
             </div>
 
             <div className="flex justify-center mt-10">
               <img
                 className="object-cover w-full h-96 rounded-xl lg:w-4/5"
-                src="https://images.unsplash.com/photo-1574012716378-0ca6f4c18c08?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2017&q=80"
+                src="https://images.unsplash.com/photo-1580541832626-2a7131ee809f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNoZXNzfGVufDB8fDB8fHww"
               />
             </div>
           </div>
@@ -83,14 +83,14 @@ const Chess = () => {
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
                 {" "}
                 The tournament will be conducted as per FIDE Rules and FIDE
-                Swiss System with 7 rounds (may differ with numbers of
+                Swiss System with 7 rounds (may differ with number of
                 participants).
               </p>
             </li>
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                Time control : 10minutes with no increment
+                Time control : 10 minutes with no increment
               </p>
             </li>
             <li className="ml-4 mb-10">

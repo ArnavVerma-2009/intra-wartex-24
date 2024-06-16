@@ -47,6 +47,8 @@ const Upvento = () => {
                 Nandini Prasher
                 <br />
                 Mayank Satija
+                <br />
+                Anmol Narayan
               </p>
             </div>
             <div className="block sm:m-4 max-w-sm p-6 mt-4 sm:mt-0 border rounded-lg shadow  bg-[#ffffff] border-gray-700 hover:bg-gray-300 transition duration-500 w-96">
@@ -74,7 +76,7 @@ const Upvento = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                This solution should be marked by its creativity, innovation,
+                This solution will be marked by its creativity, innovation,
                 and originality.
               </p>
             </li>
@@ -90,7 +92,7 @@ const Upvento = () => {
                 The participants will be required to pitch their project in the
                 form of a power point presentation sent to the event heads via
                 mail at wartexdata@gmail.com that outlines project's key
-                details. The presentation should be of 3-5 minutes.
+                details.
               </p>
             </li>
             <li className="mb-10 ml-4">

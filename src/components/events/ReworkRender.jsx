@@ -14,7 +14,7 @@ const ReworkRender = () => {
               >
                 Rework Render
               </h1>
-              <p className="mt-6 text-white">VIDEO EDITING.</p>
+              <p className="mt-6 text-white">VIDEO EDITING</p>
             </div>
 
             <div className="flex justify-center mt-10">
@@ -93,7 +93,7 @@ Use of pre made templates is not allowed              </p>
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                a google drive and link shall be sent to wartexdata@gmail.com
+                A google drive and link shall be sent to wartexdata@gmail.com
                 with the necessary details by 10th July, 2024. Details to be
                 mentioned in the mail -
                 <ul class="list-outside list-disc ml-6">

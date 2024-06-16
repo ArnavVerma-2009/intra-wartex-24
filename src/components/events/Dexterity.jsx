@@ -70,7 +70,7 @@ const Dexterity = () => {
               <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
                 Topics can range from Movies to Posters on album covers by
-                musical artists etc
+                musical artists, etc.
               </p>
             </li>
             <li className="ml-4 mb-10">
@@ -87,17 +87,11 @@ const Dexterity = () => {
                 should not exceed 10MB.
               </p>
             </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5   "></div>
-              <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-300">
-                The last date of submission of entries is 8th July, 2024 at
-                wartexdata@gmail.com.
-              </p>
-            </li>
+    
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 ">
-                The entry has to submitted at wartexdata@gmail.com before 10th
+                The entry has to submitted at wartexdata@gmail.com before 8th
                 july with following details:
                 <ul class="list-outside list-disc ml-6">
                   <li>Your Name </li>

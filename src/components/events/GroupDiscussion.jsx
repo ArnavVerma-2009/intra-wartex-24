@@ -15,7 +15,7 @@ const GroupDiscussion = () => {
                 ILLUMINATI
               </h1>
               <p className="mt-6 text-white">
-                GROUP DISCUSSION ON CURRENT AFFAIRS
+                GROUP DISCUSSION
               </p>
             </div>
 
@@ -82,7 +82,7 @@ const GroupDiscussion = () => {
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                Each participant will prepare in opening statement of 2 minutes,
+                Each participant will prepare an opening statement of 2 minutes,
                 followed by a group discussion of 10 minutes and the round will
                 end with closing statements of 2 minutes each participant.
               </p>

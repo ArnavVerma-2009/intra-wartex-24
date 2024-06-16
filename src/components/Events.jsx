@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 AOS.init()
 
 
-import Aperture from "./../assets/eventThumbnails/Aperture.webp";
+import Aperture from "./../assets/eventThumbnails/Aperture.png";
 import CrypticHunt from "./../assets/eventThumbnails/crypticHunt.webp";
 import BrainWars from "./../assets/eventThumbnails/BrainWars.webp";
 import Illuminati from "./../assets/eventThumbnails/GroupDiscussion.webp";

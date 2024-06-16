@@ -21,7 +21,7 @@ export default function Guidelines() {
             data-aos-duration="750"
             className="sf mb-4 text-base font-normal text-gray-300 dark:text-black"
           >
-            One student is permitted to participate in one offline along with any no. of online events.
+            One student is permitted to participate in one offline along with any one online event. 
           </p>
         </li>
         <li className="mb-10 ml-4">

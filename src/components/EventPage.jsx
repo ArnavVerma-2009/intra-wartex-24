@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./../components/styles/EventPage.css?inline";
 
-import Aperture from "./../assets/eventThumbnails/Aperture.webp";
+import Aperture from "./../assets/eventThumbnails/Aperture.png";
 import CrypticHunt from "./../assets/eventThumbnails/crypticHunt.webp";
 import BrainWars from "./../assets/eventThumbnails/BrainWars.webp";
 import Illuminati from "./../assets/eventThumbnails/GroupDiscussion.webp";

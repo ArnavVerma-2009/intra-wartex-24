@@ -35,8 +35,8 @@ const cardData = [
   },
   {
     email: "| riddhigoyal86@gmail.com",
-    phoneNum: "+91 7011432921",
-    Name: "Mayank Satija",
+    phoneNum: "+91 8800487399",
+    Name: "Jai Vikramaditya Raghav",
     Post: "Executive",
   },
 ];
@@ -46,7 +46,6 @@ const Contact = () => {
   const notify = () => toast("Message Sent successfully");
 
   const sendEmail = (e) => {
-
     emailjs
       .sendForm(
         "service_tebw94i",
@@ -135,7 +134,7 @@ const Contact = () => {
                           autoComplete="true"
                           type="text"
                           id="name"
-                          placeholder="Deepak Kalal"
+                          placeholder="Chunnu Goli"
                           name="user_name"
                           className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                         />
@@ -172,18 +171,18 @@ const Contact = () => {
                         />
                       </div>
                       <div className="w-full flex justify-center items-center">
-                      <ReCAPTCHA
-                        sitekey="6Le_kVAoAAAAAAHuBscNC2Yl2qoWlacQLEakT2UX"
-                        onChange={onChange}
-                        size="normal"      
-                        type="image"
-                        // className=
-                      /></div>
+                        <ReCAPTCHA
+                          sitekey="6Le_kVAoAAAAAAHuBscNC2Yl2qoWlacQLEakT2UX"
+                          onChange={onChange}
+                          size="normal"
+                          type="image"
+                          // className=
+                        />
+                      </div>
                       <button
                         type="submit"
                         className="mx-3 disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-white transition duration-500 dark:text-black block rounded-3xl px-5 py-1 text-base font-semibold leading-7 text-white text-center uppercase border-[2px] hover:bg-gray-50 hover:text-black "
                         value="Send"
-             
                         onClick={notify}
                         disabled={!verified}
                       >

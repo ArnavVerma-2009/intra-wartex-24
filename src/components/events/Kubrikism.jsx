@@ -14,7 +14,7 @@ const Kubrikism = () => {
               >
                 Kubrikism
               </h1>
-              <p className="mt-6 text-white">MOVIE MAKING WITH A TEAM</p>
+              <p className="mt-6 text-white">MOVIE AND VLOG MAKING </p>
             </div>
 
             <div className="flex justify-center mt-10">

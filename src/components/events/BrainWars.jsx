@@ -79,7 +79,7 @@ const BrainWars = () => {
             <li className="ml-4 mb-10">
               <div className="absolute w-3 h-3 bg-[var(--primary-color)] rounded-full mt-1.5 -left-1.5  "></div>
               <p className="text-base font-normal text-gray-300 dark:text-gray-300">
-                The quiz will be based on general topics, that may include
+                The quiz will be based on general topics, which may include
                 questions related to IT, Tech, Space tech, Business, etc. along
                 with Pop Culture [movies, shows and comics].
               </p>
